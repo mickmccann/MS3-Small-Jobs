@@ -1,45 +1,171 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Small Jobs
 
-Welcome USER_NAME,
+Mock-up image goes here
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Live link goes here
 
 ---
 
-Happy coding!
+## Contents
+
+menu goes here
+
+---
+
+## About
+
+Small Jobs is a place whereby people can post a small web developing projects. Think of it as a jobs notice board you might find on a wall in your local community hall or college. Its aim is to promote jobs to skilled developers who might have been made redundant due to Covid. So that's the basic idea of Small Jobs, it's not meant to be flashy with all bells and whistles, I'll leave that to LinkedIn.
+
+---
+
+## UX
+
+### Outline
+
+Small Jobs is a web application aimed at developers who may have been made redundant due to the ongoing Covid pandemic. Visitors to the website will be users looking for a small job, nixer or freelance job, something to keep their developing skills in tip-top shape. Job listings are available to all visitors without having to register, but once registered users can create, edit or delete a job post. 
+
+All design decisions have been made with the following goals in mind:
+- To be accessible to users with disabilities
+
+- Easy to find your way around
+- Responsiveness design
+
+
+### User stories
+
+#### User experience
+
+- Consistent design across the website
+
+- Easy to navigate with menu items easily accessible
+- Intuitive -  First time learning
+- Responsive design across all devices
+- Visually appealing
+
+#### As a first-time visitor I want
+
+- To immediately understand what the purpose of the site is and what it can provide
+
+- To see all content without having to register
+- To be able to search for keywords
+- To be able to filter activities by category
+- To be able to register easily without needing to input lots of information
+
+#### As a returning user I want
+
+- To log in and out easily
+
+- To be able to add new job posts
+- To be able to edit or delete job posts I have added
+- To be able to see all the jobs I have created in one place
+
+#### As the site owner I want:
+
+- To be able to edit or remove content created by users
+
+- To be able to add, edit or remove categories
+
+
+---
+
+
+### Wireframes
+
+Wireframes designed for **mobile**, **tablet** and **desktop** created at the initial design phase are available here: [wireframes](wireframes/).
+
+---
+
+### Design of website
+
+Information on design choices will go here.
+
+---
+
+### Colour scheme
+
+Colour schemes go here.
+
+---
+
+### Features
+
+**1. Secure passwords**
+
+When registering for the site, the user's password is hashed so that it is not revealed to the database owner.
+
+**2. CRUD functionality**
+
+Visitors can:
+- View all job posts
+
+Users can:
+- Create their own job post
+
+- Edit their own job post 
+- Delete their own job post
+
+The admin can:
+- Add their own job posts
+
+- Edit any users' job posts
+- Delete any users' job posts
+
+## Technologies Used
+
+### Languages
+
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Python](https://www.python.org/)
+  - [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
+
+### Frameworks
+
+- [Flask](https://palletsprojects.com/p/flask/)
+
+- [jQuery](https://jquery.com/)
+- [Materialize](https://materializecss.com/)
+
+### Project management
+
+- [Amazon AWS](https://aws.amazon.com/)
+
+- [Balsamiq](https://balsamiq.com/wireframes/)
+- [GitHub](https://github.com/)
+- [GitPod](https://gitpod.io/)
+- [Heroku](https://www.heroku.com/about)
+- [MongoDB](https://www.mongodb.com/)
+
+### Tools
+
+- [Techsini](http://techsini.com/multi-mockup/index.php)
+
+- [Coolers.co](https://coolors.co/1a237e-79b791-ee6055-214e34-f1edee)
+- [Favicon.io](https://favicon.io//)
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- Preview on Mac to resize images
+
+---
+
+## Deployment 
+
+Deployment information goes here
+
+---
+
+## Testing
+
+Full details on the relevant testing can be found here: [Testing](TESTING.md)
+
+---
+
+## Credits
+
+### Resources
+
+Credits and learning resources goes here
+
+---

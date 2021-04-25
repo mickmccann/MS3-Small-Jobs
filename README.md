@@ -8,19 +8,34 @@ Live link goes here
 
 ## Contents
 
-menu goes here
+- [About the Project](#about-the-project)
+
+- [User Experience](#user-experience)
+    - [Project Outline](#project-outline)
+    - [User Stories](#user-stories)
+    - [Wireframes](#wireframes)
+    - [Website Design](#website-design)
+- [Website Features](#website-features)
+- [Database Design](#database-design)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+- [Testing](#testing)
+- [Credits](#credits)
 
 ---
 
-## About
+# About the Project
 
 Small Jobs is a place whereby people can post a small web developing projects. Think of it as a jobs notice board you might find on a wall in your local community hall or college. Its aim is to promote jobs to skilled developers who might have been made redundant due to Covid. So that's the basic idea of Small Jobs, it's not meant to be flashy with all bells and whistles, I'll leave that to LinkedIn.
 
+
+[^ back to contents ^](#contents)
+
 ---
 
-## UX
+# User Experience
 
-### Outline
+## Project Outline
 
 Small Jobs is a web application aimed at developers who may have been made redundant due to the ongoing Covid pandemic. Visitors to the website will be users looking for a small job, nixer or freelance job, something to keep their developing skills in tip-top shape. Job listings are available to all visitors without having to register, but once registered users can create, edit or delete a job post. 
 
@@ -31,9 +46,9 @@ All design decisions have been made with the following goals in mind:
 - Responsiveness design
 
 
-### User stories
+## User Stories
 
-#### User experience
+### User experience
 
 - Consistent design across the website
 
@@ -42,7 +57,7 @@ All design decisions have been made with the following goals in mind:
 - Responsive design across all devices
 - Visually appealing
 
-#### As a first-time visitor I want
+### As a first-time visitor I want
 
 - To immediately understand what the purpose of the site is and what it can provide
 
@@ -51,7 +66,7 @@ All design decisions have been made with the following goals in mind:
 - To be able to filter activities by category
 - To be able to register easily without needing to input lots of information
 
-#### As a returning user I want
+### As a returning user I want
 
 - To log in and out easily
 
@@ -59,39 +74,55 @@ All design decisions have been made with the following goals in mind:
 - To be able to edit or delete job posts I have added
 - To be able to see all the jobs I have created in one place
 
-#### As the site owner I want:
+### As the site owner I want:
 
 - To be able to edit or remove content created by users
 
 - To be able to add, edit or remove categories
 
 
+[^ back to contents ^](#contents)
+
 ---
 
 
-### Wireframes
+# Wireframes
 
 Wireframes designed for **mobile**, **tablet** and **desktop** created at the initial design phase are available here: [wireframes](wireframes/).
 
+[^ back to contents ^](#contents)
+
 ---
 
-### Design of website
+# Website Design
 
 Information on design choices will go here.
 
----
-
-### Colour scheme
-
-Colour schemes go here.
+[^ back to contents ^](#contents)
 
 ---
 
-### Features
+## Colour scheme
+
+![Small jobs colours](images/small_jobs_colors.png)
+
+[^ back to contents ^](#contents)
+
+---
+
+## Database Design
+
+Database design information goes here
+
+[^ back to contents ^](#contents)
+
+---
+
+## Website Features
 
 **1. Secure passwords**
 
-When registering for the site, the user's password is hashed so that it is not revealed to the database owner.
+When registering for the site, the user's password is hashed so that it is not revealed within the MongoDB.
 
 **2. CRUD functionality**
 
@@ -110,25 +141,29 @@ The admin can:
 - Edit any users' job posts
 - Delete any users' job posts
 
-## Technologies Used
+[^ back to contents ^](#contents)
 
-### Languages
+---
+
+# Technologies Used
+
+## Languages
 
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Python](https://www.python.org/)
-  - [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
+- [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
 
-### Frameworks
+## Frameworks
 
 - [Flask](https://palletsprojects.com/p/flask/)
 
 - [jQuery](https://jquery.com/)
 - [Materialize](https://materializecss.com/)
 
-### Project management
+## Project management
 
 - [Amazon AWS](https://aws.amazon.com/)
 
@@ -138,7 +173,7 @@ The admin can:
 - [Heroku](https://www.heroku.com/about)
 - [MongoDB](https://www.mongodb.com/)
 
-### Tools
+## Tools
 
 - [Techsini](http://techsini.com/multi-mockup/index.php)
 
@@ -148,24 +183,37 @@ The admin can:
 - [Google Fonts](https://fonts.google.com/)
 - Preview on Mac to resize images
 
+
+[^ back to contents ^](#contents)
+
+
 ---
 
-## Deployment 
+# Deployment 
 
 Deployment information goes here
 
+
+[^ back to contents ^](#contents)
+
 ---
 
-## Testing
+# Testing
 
 Full details on the relevant testing can be found here: [Testing](TESTING.md)
 
+
+[^ back to contents ^](#contents)
+
 ---
 
-## Credits
+# Credits
 
-### Resources
+## Resources
 
 Credits and learning resources goes here
+
+
+[^ back to contents ^](#contents)
 
 ---

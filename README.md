@@ -88,7 +88,23 @@ All design decisions have been made with the following goals in mind:
 
 # Wireframes
 
-Wireframes designed for **mobile**, **tablet** and **desktop** created at the initial design phase are available here: [wireframes](wireframes/).
+Wireframes designed for **mobile**, **tablet** and **desktop** created at the initial design phase.
+
+![Small Jobs homepage](wireframes/sj_home.png)
+
+![Small Jobs about page](wireframes/sj_about.png)
+
+![Small Jobs jobs page](wireframes/sj_jobs.png)
+
+![Small Jobs description page](wireframes/sj_jobs_desc.png)
+
+![Small Jobs login page](wireframes/sj_login.png)
+
+![Small Jobs register page](wireframes/sj_register.png)
+
+![Small Jobs profile page](wireframes/sj_profile.png)
+
+![Small Jobs mobile views](wireframes/sj_mobile_views.png)
 
 [^ back to contents ^](#contents)
 
@@ -96,15 +112,15 @@ Wireframes designed for **mobile**, **tablet** and **desktop** created at the in
 
 # Website Design
 
-Information on design choices will go here.
-
-[^ back to contents ^](#contents)
-
----
-
 ## Colour scheme
 
-![Small jobs colours](images/small_jobs_colors.png)
+After going through a few different colour schemes on [coolers.co](https://coolors.co/) I eventually chose the below palette. I like it because the colours aren't too serious but at the same time they are quite classy. The off-white is appealing as it's not going to hurt the eyes with the way pure white can sometimes be. The shades of purple, green and yellow say success to me and the tan colour compliments the off white.
+
+![Small jobs colours](wireframes/sj_colors_scheme.png)
+
+Below is a wireframe of how I see the colours working together on the website.
+
+![Small Jobs colored wireframe](wireframes/sj_color_wireframe.png)
 
 [^ back to contents ^](#contents)
 

@@ -122,6 +122,24 @@ Below is a wireframe of how I see the colours working together on the website.
 
 ![Small Jobs colored wireframe](wireframes/sj_color_wireframe.png)
 
+
+## Fonts 
+
+For the websites fonts I will be using the tried and trusted Roboto for the headings, body text, menu and links. It's a well designed font which makes reading text on screens easier on the eyes. I find that serif fonts work best across all screens whether they have retina displays or not as there's little to no pixelation.
+
+![Roboto font](wireframes/roboto_font.png)
+
+**About Roboto:** Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves. While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width. This makes for a more natural reading rhythm more commonly found in humanist and serif types.
+https://fonts.google.com/specimen/Roboto#about
+
+
+For the website logo I will be using the font Lobster. It's a fun font, not to be taken too seriously.
+
+![Lobster font](wireframes/lobster_font.png)
+
+**About Lobster:** The Lobster font took a different approach. The new OpenType format gives us the possibility to have multiple versions of each letter, and that's exactly what we are doing: Instead of compromising the design of our letters to force connections, we do what lettering artist do. We draw many versions of each letter and a lot of different letter-pairs (aka "ligatures") so we always use the best possible variation of each letter depending of the context of the letter inside each word. All this happens automatically in any browser that supports ligatures. 
+https://fonts.google.com/specimen/Lobster#about
+
 [^ back to contents ^](#contents)
 
 ---

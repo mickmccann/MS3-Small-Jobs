@@ -15,6 +15,10 @@ Live link goes here
     - [User Stories](#user-stories)
     - [Wireframes](#wireframes)
     - [Website Design](#website-design)
+
+        - [Colour Scheme](#colour-scheme)
+
+        - [Typography](#typography)
 - [Website Features](#website-features)
 - [Database Design](#database-design)
 - [Technologies Used](#technologies-used)
@@ -112,6 +116,17 @@ Wireframes designed for **mobile**, **tablet** and **desktop** created at the in
 
 # Website Design
 
+The website will be designed with the help of a [Materialize](https://materializecss.com/). A modern responsive front-end framework based on Material Design. Very much similar to Bootstrap although maybe not as well known, it comes with some excellent features.
+
+Pages on the website will be:
+- home
+- about
+- jobs
+- login
+- register
+
+Design will be consistent across all devices making sure that users dont get lost as they navigate throughout the site.
+
 ## Colour scheme
 
 After going through a few different colour schemes on [coolers.co](https://coolors.co/) I eventually chose the below palette. I like it because the colours aren't too serious but at the same time they are quite classy. The off-white is appealing as it's not going to hurt the eyes with the way pure white can sometimes be. The shades of purple, green and yellow say success to me and the tan colour compliments the off white.
@@ -123,22 +138,19 @@ Below is a wireframe of how I see the colours working together on the website.
 ![Small Jobs colored wireframe](wireframes/sj_color_wireframe.png)
 
 
-## Fonts 
+## Typography 
 
 For the websites fonts I will be using the tried and trusted Roboto for the headings, body text, menu and links. It's a well designed font which makes reading text on screens easier on the eyes. I find that serif fonts work best across all screens whether they have retina displays or not as there's little to no pixelation.
-
-![Roboto font](wireframes/roboto_font.png)
 
 **About Roboto:** Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves. While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width. This makes for a more natural reading rhythm more commonly found in humanist and serif types.
 https://fonts.google.com/specimen/Roboto#about
 
-
 For the website logo I will be using the font Lobster. It's a fun font, not to be taken too seriously.
-
-![Lobster font](wireframes/lobster_font.png)
 
 **About Lobster:** The Lobster font took a different approach. The new OpenType format gives us the possibility to have multiple versions of each letter, and that's exactly what we are doing: Instead of compromising the design of our letters to force connections, we do what lettering artist do. We draw many versions of each letter and a lot of different letter-pairs (aka "ligatures") so we always use the best possible variation of each letter depending of the context of the letter inside each word. All this happens automatically in any browser that supports ligatures. 
 https://fonts.google.com/specimen/Lobster#about
+
+All fonts have been obtained from [Google Fonts](https://fonts.google.com/)
 
 [^ back to contents ^](#contents)
 
@@ -154,11 +166,11 @@ Database design information goes here
 
 ## Website Features
 
-**1. Secure passwords**
+**1. Secure Passwords**
 
 When registering for the site, the user's password is hashed so that it is not revealed within the MongoDB.
 
-**2. CRUD functionality**
+**2. CRUD Functionality**
 
 Visitors can:
 - View all job posts
@@ -174,6 +186,16 @@ The admin can:
 
 - Edit any users' job posts
 - Delete any users' job posts
+
+**3. Responsive Menu:**
+- A responsive menu will be implemented across the website so that on mobile devices the menu items will collapse down into a clickable button, or what is sometimes referred to as, as a "hamburger" menu. When a user clicks on a relevant link, they will then be redirected to the coresponding page. Om mobile devices when the menu is tapped, the items will slide out from the right of the screen.
+
+**4. 404 And 500 Error Pages:**
+- If a user inadvertently types in a wrong link into their broweser, I feel its good UX if that user is kept on your website with a link back to maybe the homepage. Websites that don't implement this, when a user is met with a generic error page, more often than not, they leave the website, typing an alternative address into the browser thinking that your website has gone down. 
+
+**5. Profile Pictures:**
+- If I have the time, I would like to figure out how to have users upload their own profile picture. And then to be able to delete and upload a new one if they wish. This also promotes good UX as it gives the user a feeling of ownership.
+
 
 [^ back to contents ^](#contents)
 

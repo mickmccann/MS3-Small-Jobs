@@ -57,7 +57,7 @@ All design decisions have been made with the following goals in mind:
 - Consistent design across the website
 
 - Easy to navigate with menu items easily accessible
-- Intuitive -  First time learning
+- Intuitive - First time learning
 - Responsive design across all devices
 - Visually appealing
 

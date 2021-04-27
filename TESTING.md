@@ -24,7 +24,24 @@ User stories tests goes here
 
 # Manual Testing
 
-Manual testing info goes here
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Ensure website passes HTML validators | Outcome info | PASS or FAIL
+Ensure website passes CSS validators | Outcome info | PASS or FAIL
+Ensure website passes Jhint validators | Outcome info | PASS or FAIL
+Ensure website passes PEP8 validators | Outcome info | PASS or FAIL
+Ensure responsiveness of website across all major browsers | Outcome info | Pass or Fail
+Ensure the correct navigation items are displayed to the user when they are logged out | Outcome info |Pass or Fail
+Ensure the correct navigation items are displayed to the user when they are logged in | Outcome info |Pass or Fail
+Ensure all navigation items redirect to their appropiate pages | Outcome info | Pass or Fail
+Ensure the footer is displayed on all pages with the correct links and social media links | Outcome info | Pass or Fail
+Ensure the job description page works as intended with the appropiate functionality | Outcome info | Pass or Fail
+Ensure the register page works as intended with the appropiate functionality | Outcome info | Pass or Fail
+Ensure the login page works as intended with the appropiate functionality | Outcome info | Pass or Fail
+Ensure the create job page works as intended with the appropiate functionality | Outcome info | Pass or Fail
+Ensure the log out button works as intended with the appropiate functionality, ending the users' session | Outcome info | Pass or Fail
+Ensure error pages, 404 and 500 works as intended | Outcome info | Pass or Fail
+
 
 [^ back to contents ^](#contents)
 

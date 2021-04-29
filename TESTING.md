@@ -65,7 +65,12 @@ Responsiveness testing goes here
 
 # Bugs 
 
-Bug reports goes here
+## Mobile Side Nav
+
+- Having a bit of an issue trying to get the mobile side navigation to display when the hamburger menu is tapped.
+
+- It's probably something very small which I'll resolve later.
+
 
 [^ back to contents ^](#contents)
 

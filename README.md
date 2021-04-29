@@ -267,7 +267,7 @@ Full details on the relevant testing can be found here: [Testing](TESTING.md)
 
 ## Resources
 
-Credits and learning resources goes here
+Obtained the background image from this free website https://wallpaperaccess.com/whatsapp
 
 
 [^ back to contents ^](#contents)

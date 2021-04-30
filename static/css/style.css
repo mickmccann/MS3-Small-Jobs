@@ -15,7 +15,15 @@ body {
         font-family: Roboto;
         font-weight: bold;
         color: #666666;
+        display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
+
+  main {
+    flex: 1 0 auto;
+  }
+
 
 .brand-logo {
     font-family: Lobster;
@@ -25,4 +33,22 @@ body {
 .hide-on-med-and-down {
     font-family: Roboto;
     font-weight: 300;
+}
+
+.page-footer {
+    color: #f9db6d;
+    background-color: #464d77;
+}
+
+.page-footer a {
+    text-decoration: underline;
+}
+
+.page-footer a:hover {
+    text-decoration: none;
+}
+
+.fab {
+    font-size: 1.5em;
+    padding: 6px;
 }

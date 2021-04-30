@@ -50,16 +50,50 @@
         </ul>
     </header>
 
-    {% block content %}
-    {% endblock %}
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
 
-    <!-- scripts -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-    {% block scripts %}
-    {% endblock %}
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Small Jobs</h5>
+                    <p class="grey-text text-lighten-4">Small Jobs is a place whereby people can post a small web developing projects. Its aim is to promote skilled developers who might have been made redundant due to Covid.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Menu</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="{{ url_for('get_jobs') }}">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Login</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2021 Copyright
+                <a class="grey-text text-lighten-4 right" href="https://www.facebook.com" 
+                    title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a class="grey-text text-lighten-4 right" href="https://www.twitter.com" 
+                    title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="grey-text text-lighten-4 right" href="https://www.instagram.com" 
+                    title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a class="grey-text text-lighten-4 right" href="https://www.linkedin.com" 
+                    title="Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+        <!-- scripts -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+        {% block scripts %}
+        {% endblock %}
 </body>
 
 </html>

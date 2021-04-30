@@ -70,6 +70,10 @@ Responsiveness testing goes here
 - Having a bit of an issue trying to get the mobile side navigation to display when the hamburger menu is tapped.
 
 - It's probably something very small which I'll resolve later.
+ 
+## Footer On Safari
+
+- When viewd live on Safari mobile browser, the footer is not sticking to the bottom and it's not displaying its intended colour. Works fine in Safari on the laptop. [Footer issue image](wireframes/footer_issue.png).
 
 
 [^ back to contents ^](#contents)

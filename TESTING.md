@@ -24,6 +24,8 @@ User stories tests goes here
 
 # Manual Testing
 
+## Front End Testing
+
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Ensure website passes HTML validators | Outcome info | PASS or FAIL
@@ -41,6 +43,17 @@ Ensure the login page works as intended with the appropiate functionality | Outc
 Ensure the create job page works as intended with the appropiate functionality | Outcome info | Pass or Fail
 Ensure the log out button works as intended with the appropiate functionality, ending the users' session | Outcome info | Pass or Fail
 Ensure error pages, 404 and 500 works as intended | Outcome info | Pass or Fail
+
+
+## Back End Testing
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Ensure password is hashed using Werkzeug security features | Password is hashed using Werkzeug security features. Example of a hashed password generated for a new user. [Hashed](wireframes/password_hashing.png) | PASS
+Ensure flash message is displayed when a new user registers | Flash message is displayed when a new user registers. [New user](wireframes/reg_success.png) | PASS
+Ensure a flash message is displayed if a new user tries to register with an username that's already been registered | a flash message is displayed if a new user tries to register with an username that's already been registered. [Register fail](wireframes/reg_not_success.png) | PASS
+Using RegEx defensive programming, ensure form is not submitted unless username and password are between 4-15 characters long | Users have to submit a username and password between 4-15 characters using a-z A-Z or 0-9. [Defensive programming](wireframes/defensive_prog.png) | PASS
+
 
 
 [^ back to contents ^](#contents)
@@ -69,13 +82,14 @@ Responsiveness testing goes here
 
 - Having a bit of an issue trying to get the mobile side navigation to display when the hamburger menu is tapped.
 
-- It's probably something very small which I'll resolve later.
- 
+    - It's probably something very small which I'll resolve later.
+        - Resloved this issue by ammending the file structure.
+
 ## Footer On Safari
 
 - When viewd live on Safari mobile browser, the footer is not sticking to the bottom and it's not displaying its intended colour. Works fine in Safari on the laptop. [Footer issue image](wireframes/footer_issue.png).
 
-- Issue resolved itself. 
+    - Issue resolved itself. 
 
 
 [^ back to contents ^](#contents)

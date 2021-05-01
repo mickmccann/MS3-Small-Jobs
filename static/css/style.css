@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
 
 
+h2, h3 {
+    font-family: Lobster;
+    color: #36827f;
+}
+
 /* site colors */
 .dark-green {
     background-color: #36827F;
@@ -11,11 +16,11 @@
 }
 
 body {
-        background-image: url("../images/background_img.png");
-        font-family: Roboto;
-        font-weight: bold;
-        color: #666666;
-        display: flex;
+    background-image: url("../images/background_img.png");
+    font-family: Roboto;
+    font-weight: bold;
+    color: #666666;
+    display: flex;
     min-height: 100vh;
     flex-direction: column;
 }

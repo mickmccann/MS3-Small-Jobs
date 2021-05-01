@@ -75,6 +75,8 @@ Responsiveness testing goes here
 
 - When viewd live on Safari mobile browser, the footer is not sticking to the bottom and it's not displaying its intended colour. Works fine in Safari on the laptop. [Footer issue image](wireframes/footer_issue.png).
 
+- Issue resolved itself. 
+
 
 [^ back to contents ^](#contents)
 

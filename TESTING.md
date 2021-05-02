@@ -8,7 +8,7 @@ Back to [README](README.md)
 
 - [Manual Testing](#manual-testing)
     - [Front End Testing](#front-end-testing)
-    
+
     - [Back End Testing](#back-end-testing)
 - [Chrome Dev Tools - Lighthouse](#chrome-dev-tools-lighthouse)
 - [Responsiveness](#responsiveness)
@@ -59,6 +59,7 @@ Using RegEx defensive programming, ensure form is not submitted unless username 
 Ensure a flash message is displayed to the user if incorrect details are entered | If the user enters an incorrect username or password a flash message is displayed. [Invalid details](wireframes/invalid_details.png) | PASS
 Ensure a flash message is displayed to the user with their username when they login | A flash message is displayed to the user with their username when they login. [Username displayed](wireframes/correct_details.png) | PASS
 Ensure user's username is displayed when they log in | User's username is displayed when they are logged. [Username displayed](wireframes/username_profile.png) | PASS
+Ensure a flash message is displayed to the user when they log out and are redirected to the login pagee | A flash message is displayed to the user when they log out and they are redirected to the login page. [Log out flash message](wireframes/log_out_flash.png) | PASS
 
 
 

@@ -7,6 +7,9 @@ Back to [README](README.md)
 - [Testing User Stories](#user-stories)
 
 - [Manual Testing](#manual-testing)
+    - [Front End Testing](#front-end-testing)
+    
+    - [Back End Testing](#back-end-testing)
 - [Chrome Dev Tools - Lighthouse](#chrome-dev-tools-lighthouse)
 - [Responsiveness](#responsiveness)
 - [Bugs](#bugs)
@@ -55,6 +58,7 @@ Ensure a flash message is displayed if a new user tries to register with an user
 Using RegEx defensive programming, ensure form is not submitted unless username and password are between 4-15 characters long | Users have to submit a username and password between 4-15 characters using a-z A-Z or 0-9. [Defensive programming](wireframes/defensive_prog.png) | PASS
 Ensure a flash message is displayed to the user if incorrect details are entered | If the user enters an incorrect username or password a flash message is displayed. [Invalid details](wireframes/invalid_details.png) | PASS
 Ensure a flash message is displayed to the user with their username when they login | A flash message is displayed to the user with their username when they login. [Username displayed](wireframes/correct_details.png) | PASS
+Ensure user's username is displayed when they log in | User's username is displayed when they are logged. [Username displayed](wireframes/username_profile.png) | PASS
 
 
 

@@ -63,7 +63,7 @@ Ensure a flash message is displayed to the user when they log out and are redire
 Ensure a flash message is displayed if incorrect login details are entered | A flash message is displayed if incorrect login details are entered. [Error message](wireframes/error_message.png) | PASS
 Ensure forms have a "min-length" and a "max-length" set | All forms on the app have a "min-length" and a "max-length" | PASS
 Ensure forms don't submit until all required fields are entered | Forms across the website do not submit unless all required fields are entered. | PASS
-
+Ensure items in category dropdown are wired up to MongoDB | Items in category dropdown are wired up to MongoDB and appear alphabetically. | PASS
 
 
 [^ back to contents ^](#contents)
@@ -106,6 +106,12 @@ Responsiveness testing goes here
 - Testing on iPhone 11: In Firefox, job description aren't popping out. Works as intended on Safari, Chrome and Edge.
 
     - Issue has resolved itself
+
+## Job Category Dropdown
+
+- Testing on iPhone 11: On Safari, Firefox, Chrome and Edge can't select the category items. Works as intended on desktop.
+
+    - Will try to find a resolution.
 
 [^ back to contents ^](#contents)
 

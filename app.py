@@ -101,7 +101,8 @@ def logout():
 
 @app.route("/add_jobs")
 def add_jobs():
-    return render_template("add_jobs.html")
+    categories = mongo.db.categories.find().sort("category_name", 1)
+    return render_template("add_jobs.html", categories=categories)
 
 
 if __name__ == "__main__":

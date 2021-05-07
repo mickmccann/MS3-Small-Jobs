@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
 
+
+<h3 class="center-align">Job List</h3>
+
 <ul class="collapsible popout">
     {% for job in jobs %}
     <li>
@@ -13,14 +16,10 @@
                 data-position="right" data-tooltip="This Job Is Urgent!"></i>
             {% endif %}
         </div>
-        <div class="collapsible-body yellow">
-            <p>
-                {{ job.due_date }}
-            </p>
-                {{ job.category_name }}
-            <p>
-                {{ job.job_description }}
-            </p>
+        <div class="collapsible-body grey lighten-4">
+            <p>{{ job.category_name }}</p>
+            <p>{{ job.job_description }}</p>
+            <p><em>by: {{ job.created_by }}</em></p>
         </div>
     </li>
     {% endfor %}

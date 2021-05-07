@@ -64,6 +64,7 @@ Ensure a flash message is displayed if incorrect login details are entered | A f
 Ensure forms have a "min-length" and a "max-length" set | All forms on the app have a "min-length" and a "max-length" | PASS
 Ensure forms don't submit until all required fields are entered | Forms across the website do not submit unless all required fields are entered. | PASS
 Ensure items in category dropdown are wired up to MongoDB | Items in category dropdown are wired up to MongoDB and appear alphabetically. | PASS
+Ensure the correct input type is on all form entry fields | The correct input type is on all form entry fields. [Email input](wireframes/email_test.png) | PASS
 
 
 [^ back to contents ^](#contents)

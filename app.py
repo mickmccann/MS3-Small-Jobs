@@ -99,8 +99,26 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.route("/add_jobs")
+@app.route("/add_jobs", methods=["GET", "POST"])
 def add_jobs():
+    if request.method == "POST":
+        is_urgent = "on" if request.form.get("is_urgent") else "off"
+        jobs = {
+            "category_name": request.form.get("category_name"),
+            "company_name": request.form.get("company_name"),
+            "contact_name": request.form.get("contact_name"),
+            "contact_email": request.form.get("contact_email"),
+            "job_name": request.form.get("job_name"),
+            "job_description": request.form.get("job_description"),
+            "is_urgent": is_urgent,
+            "due_date": request.form.get("due_date"),
+            "launch_time": request.form.get("launch_time"),
+            "created_by": session["user"]
+        }
+        mongo.db.jobs.insert_one(jobs)
+        flash("Job Successfully Added!")
+        return redirect(url_for("get_jobs"))
+
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template("add_jobs.html", categories=categories)
 

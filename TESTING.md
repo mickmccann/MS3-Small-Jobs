@@ -65,6 +65,9 @@ Ensure forms have a "min-length" and a "max-length" set | All forms on the app h
 Ensure forms don't submit until all required fields are entered | Forms across the website do not submit unless all required fields are entered. | PASS
 Ensure items in category dropdown are wired up to MongoDB | Items in category dropdown are wired up to MongoDB and appear alphabetically. | PASS
 Ensure the correct input type is on all form entry fields | The correct input type is on all form entry fields. [Email input](wireframes/email_test.png) | PASS
+Ensure dropdown job category list is marked as required | Dropdown job category list is marked as required. Turns red if unvalid and green if valid. [Correct validation](wireframes/valid.png) [Incorrect validation](wireframes/unvalid.png) | PASS
+Ensure a flash message is displayed when a job is successfully added | A flash message is displayed when a job is successfully added. [Job added](wireframes/job_success_flash.png)
+
 
 
 [^ back to contents ^](#contents)
@@ -113,6 +116,7 @@ Responsiveness testing goes here
 - Testing on iPhone 11: On Safari, Firefox, Chrome and Edge can't select the category items. Works as intended on desktop.
 
     - Will try to find a resolution.
+        - It turns out it does work across the different mobile browsers, it's just a bit fussy where you tap. 
 
 [^ back to contents ^](#contents)
 

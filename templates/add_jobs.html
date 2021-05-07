@@ -12,59 +12,64 @@
                 <select id="category_name" name="category_name" class="validate" required>
                     <option value="" disabled selected>Choose Your Job Category</option>
                     {% for category in categories %}
-                    <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+                        <option value="{{ category.category_name }}">{{ category.category_name }}</option>
                     {% endfor %}
                 </select>
                 <label for="category_name">Job Category</label>
             </div>
         </div>
+    
         <!-- company or indivdual name -->
         <div class="row">
             <div class="input-field col s12">
                 <i class="far fa-building prefix purple-text text-darken-4"></i>
-                <input id="company_name" name="company_name" minlength="5" maxlength="50" type="text" class="validate"
-                    required>
+                <input id="company_name" name="company_name" minlength="5" 
+                maxlength="50" type="text" class="validate" required>
                 <label for="company_name">Indivdual or Company Name</label>
             </div>
         </div>
+    
         <!-- contact name -->
         <div class="row card-panel">
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-user-edit prefix purple-text text-darken-4"></i>
-                    <input id="contact_name" name="contact_name" minlength="5" maxlength="50" type="text"
-                        class="validate" required>
+                    <input id="contact_name" name="contact_name" minlength="5" 
+                    maxlength="50" type="text" class="validate" required>
                     <label for="contact_name">Contact Name</label>
                 </div>
             </div>
+    
             <!-- contact email -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-at prefix purple-text text-darken-4"></i>
-                    <input id="contact_email" name="contact_email" minlength="5" maxlength="50" type="email"
-                        class="validate" required>
+                    <input id="contact_email" name="contact_email" minlength="5" 
+                    maxlength="50" type="email" class="validate" required>
                     <label for="contact_email">Contact Email</label>
                 </div>
             </div>
+    
             <!-- job name -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-edit prefix purple-text text-darken-4"></i>
-                    <input id="job_name" name="job_name" minlength="5" maxlength="50" type="text" class="validate"
-                        required>
+                    <input id="job_name" name="job_name" minlength="5" maxlength="50" 
+                    type="text" class="validate" required>
                     <label for="job_name">Job Name</label>
                 </div>
             </div>
+    
             <!-- job description -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-align-left prefix purple-text text-darken-4"></i>
                     <textarea id="job_description" name="job_description" maxlength="200"
                         class="materialize-textarea validate" required></textarea>
-                    <label for="job_description">Job Description. Please give as much detail as 
-                        possible. Max length: 200 characters</label>
+                    <label for="job_description">Job Description</label>
                 </div>
             </div>
+    
             <!-- due date -->
             <div class="row">
                 <div class="input-field col s12">
@@ -73,6 +78,7 @@
                     <label for="due_date">Choose A Due Date</label>
                 </div>
             </div>
+    
             <!-- launch time -->
             <div class="row">
                 <div class="input-field col s12">
@@ -81,6 +87,7 @@
                     <label for="launch_time">Optional: App Launch Time</label>
                 </div>
             </div>
+    
             <!-- is urgent -->
             <div class="row">
                 <div class="input-field col s12">
@@ -95,6 +102,7 @@
                     </div>
                 </div>
             </div>
+    
             <!-- submit button -->
             <div class="row">
                 <div class="col s12 center-align">

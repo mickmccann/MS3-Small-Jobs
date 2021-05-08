@@ -8,13 +8,21 @@
     {% for job in jobs %}
     <li>
         <div class="collapsible-header white teal-text">
-            <i class="far fa-folder-open"></i>
-            {{ job.job_name }}<br>
-            {{ job.due_date }}
-            {% if job.is_urgent == "on" %}
-                &nbsp;<i class="fas fa-exclamation-circle purple-text text-darken-2 tooltipped"
-                data-position="right" data-tooltip="This Job Is Urgent!"></i>
-            {% endif %}
+            <div class="col s3">
+                <i class="far fa-folder-open"></i>
+            </div>
+            <div class="col s9">
+                {{ job.job_name }}<br>
+                {{ job.due_date }}
+                {% if job.is_urgent == "on" %}
+                    &nbsp;<i class="fas fa-exclamation-circle purple-text text-darken-2 
+                    tooltipped" data-position="right"
+                    data-tooltip="This Job Is Urgent!"></i>
+                    
+                    <a href="" class="waves-effect waves-light btn-small">Done</a>
+                    <a href="" class="waves-effect waves-light btn-small purple darken-4">Edit</a>
+                {% endif %}
+            </div>
         </div>
         <div class="collapsible-body grey lighten-4">
             <p>{{ job.category_name }}</p>

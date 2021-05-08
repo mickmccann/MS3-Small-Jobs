@@ -19,7 +19,15 @@ Back to [README](README.md)
 
 # Testing User Stories
 
-User stories tests goes here
+## Testing UX
+
+Changed the location for the EDIT and DONE buttons because where they were, made them hop about on mobile. It looked fine on desktop and laptop, just on mobile devices, buttons got squashed and pushed the EDIT button down on to the line below. This spoiled the design anad UX for the user.
+
+![Edit done buttons](wireframes/edit_done_btn.png)
+
+In order to address this issue, I put the buttons into the job description, which I think looks so much better. Job descriptions pop out without causing any problems to the design consistency.
+
+![Edit done buttons](wireframes/edit_done_btn2.png)
 
 [^ back to contents ^](#contents)
 
@@ -84,7 +92,7 @@ Lighthouse info goes here
 
 # Responsiveness
 
-Responsiveness testing goes here
+
 
 [^ back to contents ^](#contents)
 

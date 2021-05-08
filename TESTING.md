@@ -101,12 +101,15 @@ Lighthouse info goes here
 
 # Bugs 
 
+## Job Category Dropdown
+
+- Testing the live site on iPhone 11. On the edit_jobs page, I've noticed that the default dropdown menu is availaable to select an item as well as the styled Materialize. It's not there when I use Chrome Dev Tools to inspect the page.
+
 ## Mobile Side Nav
 
 - Having a bit of an issue trying to get the mobile side navigation to display when the hamburger menu is tapped.
 
-    - It's probably something very small which I'll resolve later.
-        - Resloved this issue by ammending the file structure.
+    - Resloved this issue by ammending the file structure.
 
 ## Footer On Safari
 
@@ -124,8 +127,7 @@ Lighthouse info goes here
 
 - Testing on iPhone 11: On Safari, Firefox, Chrome and Edge can't select the category items. Works as intended on desktop.
 
-    - Will try to find a resolution.
-        - It turns out it does work across the different mobile browsers, it's just a bit fussy where you tap.
+    - It turns out it does work across the different mobile browsers, it's just a bit fussy where you tap.
 
 ## Routing Issue
 

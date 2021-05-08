@@ -75,6 +75,7 @@ Ensure items in category dropdown are wired up to MongoDB | Items in category dr
 Ensure the correct input type is on all form entry fields | The correct input type is on all form entry fields. [Email input](wireframes/email_test.png) | PASS
 Ensure dropdown job category list is marked as required | Dropdown job category list is marked as required. Turns red if unvalid and green if valid. [Correct validation](wireframes/valid.png) [Incorrect validation](wireframes/unvalid.png) | PASS
 Ensure a flash message is displayed when a job is successfully added | A flash message is displayed when a job is successfully added. [Job added](wireframes/job_success_flash.png)
+Ensure clicking on the edit button takes the user to the edit jobs page | Clicking on the edit button takes the user to the edit jobs page. | PASS
 
 
 
@@ -124,7 +125,14 @@ Lighthouse info goes here
 - Testing on iPhone 11: On Safari, Firefox, Chrome and Edge can't select the category items. Works as intended on desktop.
 
     - Will try to find a resolution.
-        - It turns out it does work across the different mobile browsers, it's just a bit fussy where you tap. 
+        - It turns out it does work across the different mobile browsers, it's just a bit fussy where you tap.
+
+## Routing Issue
+
+- Experienced a [routing issue](wireframes/routing_error.png) that took longer than necessary to solve.
+
+    - In my jobs.html file, I had {{ url_for('edit_job', job_id=job._id) }} instead of {{ url_for('edit_jobs', job_id=job._id) }}
+
 
 [^ back to contents ^](#contents)
 

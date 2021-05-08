@@ -123,6 +123,13 @@ def add_jobs():
     return render_template("add_jobs.html", categories=categories)
 
 
+@app.route("/edit_jobs/<job_id>", methods=["GET", "POST"])
+def edit_jobs(job_id):
+    job = mongo.db.jobs.find_one({"_id": ObjectId(job_id)})
+    categories = mongo.db.categories.find().sort("category_name", 1)
+    return render_template("edit_jobs.html", job=job, categories=categories)
+
+
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),

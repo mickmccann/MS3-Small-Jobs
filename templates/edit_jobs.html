@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h3 class="center-align">Edit Job Post</h3>
+
+<div class="row card-panel grey lighten-4">
+    <form class="col s12" method="POST" action="{{ url_for('edit_jobs', job_id=job._id) }}">
+        <!-- job category dropdown -->
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="fas fa-chevron-circle-down prefix purple-text text-darken-4"></i>
+                <select id="category_name" name="category_name" class="validate" required>
+                    <option value="" disabled selected>Choose Your Job Category</option>
+                    {% for category in categories %}
+                        <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+                    {% endfor %}
+                </select>
+                <label for="category_name">Job Category</label>
+            </div>
+        </div>
+    
+        <!-- company or indivdual name -->
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="far fa-building prefix purple-text text-darken-4"></i>
+                <input id="company_name" name="company_name" minlength="5" 
+                maxlength="50" type="text" class="validate" required>
+                <label for="company_name">Business Name</label>
+            </div>
+        </div>
+    
+        <!-- contact name -->
+        <div class="row card-panel">
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-user-edit prefix purple-text text-darken-4"></i>
+                    <input id="contact_name" name="contact_name" minlength="5" 
+                    maxlength="50" type="text" class="validate" required>
+                    <label for="contact_name">Contact Name</label>
+                </div>
+            </div>
+    
+            <!-- contact email -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-at prefix purple-text text-darken-4"></i>
+                    <input id="contact_email" name="contact_email" minlength="5" 
+                    maxlength="50" type="email" class="validate" required>
+                    <label for="contact_email">Contact Email</label>
+                </div>
+            </div>
+    
+            <!-- job name -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-edit prefix purple-text text-darken-4"></i>
+                    <input id="job_name" name="job_name" minlength="5" maxlength="50" 
+                    type="text" class="validate" required>
+                    <label for="job_name">Job Name</label>
+                </div>
+            </div>
+    
+            <!-- job description -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-align-left prefix purple-text text-darken-4"></i>
+                    <textarea id="job_description" name="job_description" maxlength="200"
+                        class="materialize-textarea validate" required></textarea>
+                    <label for="job_description">Job Description</label>
+                </div>
+            </div>
+    
+            <!-- due date -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-calendar-alt prefix purple-text text-darken-4"></i>
+                    <input id="due_date" name="due_date" type="text" class="datepicker validate" required>
+                    <label for="due_date">Choose A Due Date</label>
+                </div>
+            </div>
+    
+            <!-- launch time -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="far fa-clock prefix purple-text text-darken-4"></i>
+                    <input id="launch_time" name="launch_time" type="text" class="timepicker">
+                    <label for="launch_time">Optional: App Launch Time</label>
+                </div>
+            </div>
+    
+            <!-- is urgent -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <!-- Switch -->
+                    <div class="switch">
+                        <i class="fas fa-exclamation-triangle prefix purple-text text-darken-4"></i>
+                        <label for="is_urgent">
+                            <input type="checkbox" id="is_urgent" name="is_urgent">
+                            <span class="lever"></span>
+                            Mark Job As Urgent
+                        </label>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- submit button -->
+            <div class="row">
+                <div class="col s12 center-align">
+                    <button type="submit" class="btn-large text-shadow waves-effect waves-light">
+                        Edit Job<i class="fas fa-pen right"></i>
+                    </button>
+                </div>
+            </div>
+    </form>
+</div>
+
+{% endblock %}

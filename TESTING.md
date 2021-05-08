@@ -21,7 +21,22 @@ Back to [README](README.md)
 
 ## Testing UX
 
-Changed the location for the EDIT and DONE buttons because where they were, made them hop about on mobile. It looked fine on desktop and laptop, just on mobile devices, buttons got squashed and pushed the EDIT button down on to the line below. This spoiled the design anad UX for the user.
+### Nav Bar
+
+In order to make the navbar always within the users' reach, I applied a fixed navbar to the main navbar. The navbar is also accessible by swiping to the left of your screen on mobile devices. Doing this makes the user feel comfortable knowing that they are never lost, so to speak, particularly for first time visitors this is important. 
+
+### Due Date
+
+I thought the dates on the jobs page was unclear what they meant to a first time visitor. So in order to make it clear to everyone, I added Due Date beside the date.
+It's clearer from the images my reasons for doing this.
+
+![Due date image](wireframes/due_date.png)
+
+![Due date image](wireframes/due_date2.png)
+
+### EDIT and DONE Buttons
+
+Changed the location for the EDIT and DONE buttons because where they were, made them hop about on mobile. It looked fine on desktop and laptop, just on mobile devices buttons got squashed and pushed the EDIT button down on to the line below. This spoiled the design anad UX for the user.
 
 ![Edit done buttons](wireframes/edit_done_btn.png)
 

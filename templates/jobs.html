@@ -13,7 +13,7 @@
             </div>
             <div class="col s9">
                 {{ job.job_name }}<br>
-                {{ job.due_date }}
+                Due Date: {{ job.due_date }}
                 {% if job.is_urgent == "on" %}
                     &nbsp;<i class="fas fa-exclamation-circle purple-text text-darken-2 
                     tooltipped" data-position="right"

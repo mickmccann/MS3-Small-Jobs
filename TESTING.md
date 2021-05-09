@@ -70,6 +70,18 @@ Ensure the create job page works as intended with the appropiate functionality |
 Ensure the log out button works as intended with the appropiate functionality, ending the users' session | Outcome info | Pass or Fail
 Ensure error pages, 404 and 500 works as intended | Outcome info | Pass or Fail
 Ensure job descriptions "pop out" when tapped or clicked | Outcome info | Pass or Fail
+Ensure when you click on the EDIT button, within the Job Category dropdown list, the original selected category remains selected | When you click on the EDIT button, within the Job Category dropdown list, the original selected category remains selected | PASS
+Ensure when you click on the EDIT button, within Business Name field, the original inputed field name is selected | When you click on the EDIT button, within Business Name field,the original inputed field name is selected | PASS
+Ensure when you click on the EDIT button, within Contact Name field, the original inputed field name is selected | When you click on the EDIT button, within Contact Name field, the original inputed field name is selected | PASS
+Ensure when you click on the EDIT button, within Contact Email field, the original inputed field name is selected | When you click on the EDIT button, within Contact Email field, the original inputed field name is selected | PASS
+Ensure when you click on the EDIT button, within Job Name field, the original inputed field name is selected | When you click on the EDIT button, within Job Name field,the original inputed field name is selected | PASS
+Ensure when you click on the EDIT button, within Job Description field, the original inputed field name is selected | When you click on the EDIT button, within Job Description field, the original inputed field name is selected | PASS
+Ensure when you click on the EDIT button, within Due Date field, the original inputed date is selected | When you click on the EDIT button, within Due Date field, the original inputed date is selected | PASS
+Ensure when you click on the EDIT button, within Launch Time field, the original inputed time is selected | When you click on the EDIT button, within Launch Time field the original inputed time is selected | PASS
+Ensure when you click on the EDIT button, the Is Urgent toggle switch, the original selection is selected | When you click on the EDIT button, the Is Urgent toggle switch, the original selection is selected | PASS
+Ensure when you click on the CANCEL button, the user is brought back to the main page, disregarding any changes | When you click on the CANCEL button, the user is brought back to the main page, disregarding any changes | PASS
+
+
 
 ## Back End Testing
 

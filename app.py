@@ -125,6 +125,23 @@ def add_jobs():
 
 @app.route("/edit_jobs/<job_id>", methods=["GET", "POST"])
 def edit_jobs(job_id):
+    if request.method == "POST":
+        is_urgent = "on" if request.form.get("is_urgent") else "off"
+        submit = {
+            "category_name": request.form.get("category_name"),
+            "company_name": request.form.get("company_name"),
+            "contact_name": request.form.get("contact_name"),
+            "contact_email": request.form.get("contact_email"),
+            "job_name": request.form.get("job_name"),
+            "job_description": request.form.get("job_description"),
+            "is_urgent": is_urgent,
+            "due_date": request.form.get("due_date"),
+            "launch_time": request.form.get("launch_time"),
+            "created_by": session["user"]
+        }
+        mongo.db.jobs.update({"_id": ObjectId(job_id)}, submit)
+        flash("Job Successfully Updated!")
+
     job = mongo.db.jobs.find_one({"_id": ObjectId(job_id)})
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template("edit_jobs.html", job=job, categories=categories)

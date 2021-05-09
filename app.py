@@ -19,12 +19,6 @@ mongo = PyMongo(app)
 
 
 @app.route("/")
-@app.route("/get_jobs")
-def get_jobs():
-    jobs = list(mongo.db.jobs.find())
-    return render_template("jobs.html", jobs=jobs)
-
-
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
@@ -48,6 +42,12 @@ def register():
         return redirect(url_for("profile", username=session["user"]))
 
     return render_template("register.html")
+
+
+@app.route("/get_jobs")
+def get_jobs():
+    jobs = list(mongo.db.jobs.find())
+    return render_template("jobs.html", jobs=jobs)
 
 
 @app.route("/login", methods=["GET", "POST"])

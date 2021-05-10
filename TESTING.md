@@ -80,7 +80,15 @@ Ensure when you click on the EDIT button, within Due Date field, the original in
 Ensure when you click on the EDIT button, within Launch Time field, the original inputed time is selected | When you click on the EDIT button, within Launch Time field the original inputed time is selected | PASS
 Ensure when you click on the EDIT button, the Is Urgent toggle switch, the original selection is selected | When you click on the EDIT button, the Is Urgent toggle switch, the original selection is selected | PASS
 Ensure when you click on the CANCEL button, the user is brought back to the main page, disregarding any changes | When you click on the CANCEL button, the user is brought back to the main page, disregarding any changes | PASS
-
+When creating a job, ensure the job description dropdown select is added to the job post on the get_jobs page | The job description dropdown select is added to the job post on the get_jobs page. | PASS
+When creating a job post, ensure the business name is added to the job post on the get_jobs page | When creating a job post, the business name is added to the job post on the get_jobs page | PASS
+When creating a job post, ensure the contact name is added to the job post on the get_jobs page | When creating a job post, the contact name is added to the job post on the get_jobs page | PASS
+When creating a job post, ensure the contact email is added to the job post on the get_jobs page | When creating a job post, the contact email is added to the job post on the get_jobs page | PASS
+When creating a job post, ensure the job name is added to the job post on the get_jobs page | When creating a job post, the job name is added to the job post on the get_jobs page | PASS
+When creating a job post, ensure the job description is added to the job post on the get_jobs page | When creating a job post, the job description is added to the job post on the get_jobs page | PASS
+When creating a job post, ensure the due date is added to the job post on the get_jobs page | When creating a job post, the due date is added to the job post on the get_jobs page | PASS
+When creating a job post, ensure the app launch time is added to the job post on the get_jobs page, if required by the user | When creating a job post, the app launch time is added to the job post on the get_jobs page, if required by the user | PASS
+When creating a job post, ensure the is_urgent is added to the job post on the get_jobs page, if required by the user | When creating a job post, the is_urgent is added to the job post on the get_jobs page, if required by the user | PASS
 
 
 ## Back End Testing

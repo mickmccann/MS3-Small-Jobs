@@ -22,11 +22,17 @@
             </div>
         </div>
         <div class="collapsible-body grey lighten-4">
-            <p>{{ job.category_name }}</p>
-            <p>{{ job.job_description }}</p>
-            <p><em>by: {{ job.created_by }}</em></p>
-                <a href="" class="waves-effect waves-light btn-small">Done</a>
-                <a href="{{ url_for('edit_jobs', job_id=job._id) }}" class="waves-effect waves-light btn-small purple darken-4">Edit</a>
+            <div class="card-panel">
+                <p><span class="purple-text text-darken-2">Category Name:</span> {{ job.category_name }}</p>
+                <p><span class="purple-text text-darken-2">Company Name:</span> {{ job.company_name }}</p>
+                <p><span class="purple-text text-darken-2">Contact Name:</span> {{ job.contact_name }}</p>
+                <p><span class="purple-text text-darken-2">Contact Email:</span> {{ job.contact_email }}</p>
+                <p><span class="purple-text text-darken-2">Job Description:</span> {{ job.job_description }}</p>
+                <p><span class="purple-text text-darken-2">Launch Time:</span> {{ job.launch_time }}</p>
+                <p><em>job post by: {{ job.created_by }}</em></p>
+                    <a href="" class="waves-effect waves-light btn-small">Done</a>
+                    <a href="{{ url_for('edit_jobs', job_id=job._id) }}" class="waves-effect waves-light btn-small purple darken-4">Edit</a>
+            </div>
         </div>
     </li>
     {% endfor %}

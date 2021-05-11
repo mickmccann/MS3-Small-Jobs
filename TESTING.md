@@ -89,6 +89,16 @@ When creating a job post, ensure the job description is added to the job post on
 When creating a job post, ensure the due date is added to the job post on the get_jobs page | When creating a job post, the due date is added to the job post on the get_jobs page | PASS
 When creating a job post, ensure the app launch time is added to the job post on the get_jobs page, if required by the user | When creating a job post, the app launch time is added to the job post on the get_jobs page, if required by the user | PASS
 When creating a job post, ensure the is_urgent is added to the job post on the get_jobs page, if required by the user | When creating a job post, the is_urgent is added to the job post on the get_jobs page, if required by the user | PASS
+When the EDIT button is clicked on a job, ensure the original Job Category selected entry is inputted and can be changed if required | When the EDIT button is clicked on a job, the original Job Category selected entry is inputted and can be changed if required | PASS
+When the EDIT button is clicked on a job, ensure the original Business Name entry is inputted and can be changed if required | When the EDIT button is clicked on a job the original Business Name entry is inputted and can be changed if required | PASS
+When the EDIT button is clicked on a job, ensure the original Contact Name entry is inputted and can be changed if required | When the EDIT button is clicked on a job, the original Contact Name entry is inputted and can be changed if required | PASS
+When the EDIT button is clicked on a job, ensure the original Contact Email entry is inputted and can be changed if required | When the EDIT button is clicked on a job the original Contact Email entry is inputted and can be changed if required | PASS
+When the EDIT button is clicked on a job, ensure the original Job Name entry is inputted and can be changed if required | When the EDIT button is clicked on a job, the original Job Name entry is inputted and can be changed if required | PASS
+When the EDIT button is clicked on a job, ensure the original Job Description entry is inputted and can be changed if required | When the EDIT button is clicked on a job, the original Job Description entry is inputted and can be changed if required | PASS
+When the EDIT button is clicked on a job, ensure the original Due Date entry is inputted and can be changed if required | When the EDIT button is clicked on a job, the original Due Date entry is inputted and can be changed if required | PASS
+When the EDIT button is clicked on a job, ensure the original Launch Time entry is inputted and can be changed if required | When the EDIT button is clicked on a job the original Launch Time entry is inputted and can be changed if required | PASS
+When the EDIT button is clicked on a job, ensure the original Is Urgent entry is selected and can be changed if required | When the EDIT button is clicked on a job, the original Is Urgent entry is selected and can be changed if required | PASS
+
 
 
 ## Back End Testing
@@ -112,6 +122,8 @@ Ensure dropdown job category list is marked as required | Dropdown job category 
 Ensure a flash message is displayed when a job is successfully added | A flash message is displayed when a job is successfully added. [Job added](wireframes/job_success_flash.png) | PASS
 Ensure clicking on the edit button takes the user to the edit jobs page | Clicking on the edit button takes the user to the edit jobs page. | PASS
 Ensure an appropiate Flash message is displayed to the user when they have updated their job | An appropiate Flash message is displayed to the user when they have updated their job. [Edit success](wireframes/edit_success.png) | PASS
+Ensure if the user doesn't want to edit the job the CANCEL button redirects them to Job list page with all jobs | 
+
 
 
 [^ back to contents ^](#contents)

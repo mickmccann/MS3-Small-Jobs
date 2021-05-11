@@ -30,8 +30,11 @@
                 <p><span class="purple-text text-darken-2">Job Description:</span> {{ job.job_description }}</p>
                 <p><span class="purple-text text-darken-2">Launch Time:</span> {{ job.launch_time }}</p>
                 <p><em>job post by: {{ job.created_by }}</em></p>
+                {% if session.user|lower == job.created_by|lower %}
                     <a href="" class="waves-effect waves-light btn-small">Done</a>
-                    <a href="{{ url_for('edit_jobs', job_id=job._id) }}" class="waves-effect waves-light btn-small purple darken-4">Edit</a>
+                    <a href="{{ url_for('edit_jobs', job_id=job._id) }}" 
+                        class="waves-effect waves-light btn-small purple darken-4">Edit</a>
+                {% endif %}
             </div>
         </div>
     </li>

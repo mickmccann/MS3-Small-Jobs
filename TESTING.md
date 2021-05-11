@@ -122,7 +122,10 @@ Ensure dropdown job category list is marked as required | Dropdown job category 
 Ensure a flash message is displayed when a job is successfully added | A flash message is displayed when a job is successfully added. [Job added](wireframes/job_success_flash.png) | PASS
 Ensure clicking on the edit button takes the user to the edit jobs page | Clicking on the edit button takes the user to the edit jobs page. | PASS
 Ensure an appropiate Flash message is displayed to the user when they have updated their job | An appropiate Flash message is displayed to the user when they have updated their job. [Edit success](wireframes/edit_success.png) | PASS
-Ensure if the user doesn't want to edit the job the CANCEL button redirects them to Job list page with all jobs | 
+Ensure if the user doesn't want to edit the job the CANCEL button redirects them to Job list page with all jobs | If the user doesn't want to edit the job the CANCEL button redirects them to Job list page with all jobs | PASS
+Ensure DONE and EDIT buttons are only displayed to the appropiate user when logged in | DONE and EDIT buttons are only displayed to the appropiate user when logged in | PASS
+Ensure DONE and EDIT buttons are not displayed to everyone | DONE and EDIT buttons are not displayed to everyone | PASS
+
 
 
 

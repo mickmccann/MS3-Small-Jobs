@@ -21,6 +21,12 @@ Back to [README](README.md)
 
 ## Testing UX
 
+### Registration
+
+In order to make the registration process as stress free as possible, I felt it would be good UX if I gave the user a sentence of the acceptence criteria, rather than them getting frustrated it they didn't supply the correct amount of characters and receiving no feedback as to why they were unsuccessful with registering.
+
+![Registration Instructions](wireframes/reg_inst.png)
+
 ### Nav Bar
 
 In order to make the navbar always within the users' reach, I applied a fixed navbar to the main navbar. The navbar is also accessible by swiping to the left of your screen on mobile devices. Doing this makes the user feel comfortable knowing that they are never lost, so to speak, particularly for first time visitors this is important. 
@@ -125,7 +131,7 @@ Ensure an appropiate Flash message is displayed to the user when they have updat
 Ensure if the user doesn't want to edit the job the CANCEL button redirects them to Job list page with all jobs | If the user doesn't want to edit the job the CANCEL button redirects them to Job list page with all jobs | PASS
 Ensure DONE and EDIT buttons are only displayed to the appropiate user when logged in | DONE and EDIT buttons are only displayed to the appropiate user when logged in | PASS
 Ensure DONE and EDIT buttons are not displayed to everyone | DONE and EDIT buttons are not displayed to everyone | PASS
-
+Ensure registration instructions are visible to the user on the Register page | Registration instructions are visible to the user on the Register page [Registration instructions](wireframes/reg_inst.png) | PASS
 
 
 
@@ -154,6 +160,8 @@ Lighthouse info goes here
 ## Job Category Dropdown
 
 - Testing the live site on iPhone 11. On the edit_jobs page, I've noticed that the default dropdown menu is availaable to select an item as well as the styled Materialize. It's not there when I use Chrome Dev Tools to inspect the page.
+
+    - Issue seemed to resolved itself
 
 ## Mobile Side Nav
 

@@ -21,6 +21,12 @@ Back to [README](README.md)
 
 ## Testing UX
 
+### Defensive Programming
+
+In order users don't by accident delete their job post, I implemented defensive programming. So now if they click or tap the DONE button, a modal pops up with a message saying, Are you sure you want to mark this job as DONE? They can then either CANCEL, which closes the modal and the job post is left untouched or they can hit CONFIRM to delete the job and in doing so the job is removed from the database.
+
+![Modal popup](wireframes/modal.png)
+
 ### Registration
 
 In order to make the registration process as stress free as possible, I felt it would be good UX if I gave the user a sentence of the acceptence criteria, rather than them getting frustrated it they didn't supply the correct amount of characters and receiving no feedback as to why they were unsuccessful with registering.
@@ -104,6 +110,9 @@ When the EDIT button is clicked on a job, ensure the original Job Description en
 When the EDIT button is clicked on a job, ensure the original Due Date entry is inputted and can be changed if required | When the EDIT button is clicked on a job, the original Due Date entry is inputted and can be changed if required | PASS
 When the EDIT button is clicked on a job, ensure the original Launch Time entry is inputted and can be changed if required | When the EDIT button is clicked on a job the original Launch Time entry is inputted and can be changed if required | PASS
 When the EDIT button is clicked on a job, ensure the original Is Urgent entry is selected and can be changed if required | When the EDIT button is clicked on a job, the original Is Urgent entry is selected and can be changed if required | PASS
+Ensure clicking on the DONE button, a modal is displayed with a message cautioning the user | Clicking on the DONE button, a modal is displayed with a message cautioning the user | PASS
+Within the modal, ensure the CONFIRM button deletes the job form the database | Within the modal, the CONFIRM button deletes the job form the database | PASS
+Within the modal, ensure the CANCEL button closes the modal leaving the job untouched | Within the modal, the CANCEL button closes the modal leaving the job untouched | PASS
 
 
 
@@ -132,6 +141,7 @@ Ensure if the user doesn't want to edit the job the CANCEL button redirects them
 Ensure DONE and EDIT buttons are only displayed to the appropiate user when logged in | DONE and EDIT buttons are only displayed to the appropiate user when logged in | PASS
 Ensure DONE and EDIT buttons are not displayed to everyone | DONE and EDIT buttons are not displayed to everyone | PASS
 Ensure registration instructions are visible to the user on the Register page | Registration instructions are visible to the user on the Register page [Registration instructions](wireframes/reg_inst.png) | PASS
+Ensure when a job is deleted, a flash message is displayed to the user tellimg them so | When a job is deleted, a flash message is displayed to the user tellimg them so. [Flash message](wireframes/job_removed_flash.png) | PASS
 
 
 

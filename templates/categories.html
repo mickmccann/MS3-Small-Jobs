@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h3 class="center-align">Manage Job Categories</h3>
+<div class="row">
+    {% for category in categories %}
+        <div class="col s12 m6">
+            <div class="card white">
+                <div class="card-content teal-text">
+                    <span class="card-title purple-text darken-4">{{ category.category_name }}</span>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="waves-effect waves-light btn-small purple darken-4">Edit</a>
+                    <a href="#" class="waves-effect waves-light btn-small teal">Delete</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

@@ -142,6 +142,8 @@ Ensure DONE and EDIT buttons are only displayed to the appropiate user when logg
 Ensure DONE and EDIT buttons are not displayed to everyone | DONE and EDIT buttons are not displayed to everyone | PASS
 Ensure registration instructions are visible to the user on the Register page | Registration instructions are visible to the user on the Register page [Registration instructions](wireframes/reg_inst.png) | PASS
 Ensure when a job is deleted, a flash message is displayed to the user tellimg them so | When a job is deleted, a flash message is displayed to the user tellimg them so. [Flash message](wireframes/job_removed_flash.png) | PASS
+Ensure CATEGORIES on categories.html are converted into a list and are displayed alphabetically | CATEGORIES on categories.html are converted into a list and are displayed alphabetically | PASS
+Ensure @app.route("/get_categories") has the appropiate function and is routed in order to displayed the correct page | @app.route("/get_categories") has the appropiate function and is routed in order to displayed the correct page | PASS
 
 
 

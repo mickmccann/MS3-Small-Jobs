@@ -27,6 +27,11 @@ In order users don't by accident delete their job post, I implemented defensive 
 
 ![Modal popup](wireframes/modal.png)
 
+In order the Admin does not by accident delete a job category, I implemented defensive programming, same as above. If the Admin clicks or taps the DELETE button, a modal pops up with a message saying, Are you sure you want to delete this category? The Admin can then either CANCEL, which closes the modal and the category is left untouched or they can hit DELETE to delete the category and in doing so the category is removed from the database.
+
+![Modal popup](wireframes/defensive_prog2.png)
+
+
 ### Registration
 
 In order to make the registration process as stress free as possible, I felt it would be good UX if I gave the user a sentence of the acceptence criteria, rather than them getting frustrated it they didn't supply the correct amount of characters and receiving no feedback as to why they were unsuccessful with registering.
@@ -117,6 +122,8 @@ Ensure CREATE CATEGORY button on Manage Jobs page redirects the Admin to the Add
 In categories.html, ensure the correct url_for for is passed into the href of the EDIT button | In categories.html, the correct url_for for is passed into the href of the EDIT button {{ url_for('edit_category', category_id=category.id) }} | PASS
 In the edit_category.html page, ensure if the Admin does not want to make any changes, clicking the CANCEL, Admin is redirected back to the Manage Job Categories | In the edit_category.html page, if the Admin does not want to make any changes, clicking the CANCEL, Admin is redirected back to the Manage Job Categories | PASS
 Ensure on the Edit A Category page when the Admin has finished editing the category, clicking on the EDIT submits the form, Admin is redirected back Manage Job Categories | On the Edit A Category page when the Admin has finished editing the category, clicking on the EDIT submits the form, Admin is redirected back Manage Job Categories | PASS
+Within the categories.html page, ensure the delete button has the appropiate url_for, taking in the reguired argument | Within the categories.html page, ensure the delete button has the appropiate url_for, taking in the reguired argument - {{ url_for('delete_category', category_id=category._id) }} | PASS
+Ensure a pop-up modal is displayed before the Admin deletes a category | A pop-up modal is displayed before the Admin deletes a category. This is done to prevent against accidental deletion | PASS
 
 
 
@@ -147,7 +154,9 @@ Ensure DONE and EDIT buttons are not displayed to everyone | DONE and EDIT butto
 Ensure registration instructions are visible to the user on the Register page | Registration instructions are visible to the user on the Register page [Registration instructions](wireframes/reg_inst.png) | PASS
 Ensure when a job is deleted, a flash message is displayed to the user tellimg them so | When a job is deleted, a flash message is displayed to the user tellimg them so. [Flash message](wireframes/job_removed_flash.png) | PASS
 Ensure when the Admin creates a new category a flash message is displayed on screen tellimg them so | When the Admin creates a new category a flash message is displayed on screen tellimg them so. [New category added](wireframes/new_cat.png) | PASS
-WHen the Admin successfully updates a category, ensure an appropiate a flash message is displayed | WHen the Admin successfully updates a category, a flash message is displayed. [Flash message](wireframes/cat_update.png) | PASS
+When the Admin successfully updates a category, ensure an appropiate flash message is displayed | When the Admin successfully updates a category, a flash message is displayed. [Flash message](wireframes/cat_update.png) | PASS
+When the Admin deletes a category, ensure an appropiate flash message is displayed | When the Admin deletes a category, an appropiate flash message is displayed [Flash message](wireframes/del_cat.png) | PASS
+
 
 
 
@@ -163,6 +172,8 @@ Ensure @app.route("/add_category) has the appropiate GET and POST methods and re
 In edit_category.html, ensure the action method has the appropiate url_for to complete the edit category request | In edit_category.html, the action method has the appropiate url_for to complete the edit category request: {{ url_for('edit_category', category_id=category.id) }} | PASS
 Ensure the @app.route for edit_category has the appropiate decorator with the correct variables and methods | The @app.route for edit_category has the appropiate decorator with the correct variables and methods ("/edit_category/<category_id>", methods=["GET", "POST"]) | PASS
 Ensure the def edit_category() has the correct variable in order to correctly display the data in BSON format and renders the correct page | The def edit_category() has the correct variable in order to correctly display the data in BSON format and renders the correct page | PASS
+Ensure the @app.route for delete_category has the appropiate decorator with the correct variable | The @app.route for delete_category has the appropiate decorator with the correct variable ("/delete_category/<category_id>") | PASS
+Ensure the def delete_category() contains the correct functionality in order to remove a category from the database | The def delete_category() contains the correct functionality in order to remove a category from the database | PASS
 
 
 

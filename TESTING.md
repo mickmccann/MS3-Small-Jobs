@@ -124,6 +124,10 @@ In the edit_category.html page, ensure if the Admin does not want to make any ch
 Ensure on the Edit A Category page when the Admin has finished editing the category, clicking on the EDIT submits the form, Admin is redirected back Manage Job Categories | On the Edit A Category page when the Admin has finished editing the category, clicking on the EDIT submits the form, Admin is redirected back Manage Job Categories | PASS
 Within the categories.html page, ensure the delete button has the appropiate url_for, taking in the reguired argument | Within the categories.html page, ensure the delete button has the appropiate url_for, taking in the reguired argument - {{ url_for('delete_category', category_id=category._id) }} | PASS
 Ensure a pop-up modal is displayed before the Admin deletes a category | A pop-up modal is displayed before the Admin deletes a category. This is done to prevent against accidental deletion | PASS
+Within the jobs.html page ensure the search field takes in the appropiate url_for for action and "post" for method | jobs.html page ensure the search field takes in the appropiate url_for for action and "post" for method | PASS
+Within the search div, ensure the RESET button reloads the jobs.html page taking in the appropiate url_for | Within the search div, the RESET button reloads the jobs.html page taking in the appropiate url_for | PASS
+Within the search div, ensure the SEARCH button returns the correct query result when submitted | Within the search div, the SEARCH button returns the correct query result when submitted | PASS
+
 
 
 
@@ -168,12 +172,14 @@ Ensure CATEGORIES on categories.html are converted into a list and are displayed
 Ensure @app.route("/get_categories") has the appropiate function and is routed in order to displayed the correct page | @app.route("/get_categories") has the appropiate function and is routed in order to displayed the correct page | PASS
 Ensure Jinja for loop loops through the category list without any bugs showing | Jinja for loop loops through the category list without any bugs showing | PASS
 Ensure Jinja If statement applied on the navbars, Manage Jobs page restricts access to the Admin only | Jinja If statement applied on the navbars, Manage Jobs page restricts access to the Admin only | PASS
-Ensure @app.route("/add_category) has the appropiate GET and POST methods and returns the correct rendered page | @app.route("/add_category) has the appropiate GET and POST methods and returns the correct rendered page | PASS
+Ensure @app.route("/add_category") has the appropiate GET and POST methods and returns the correct rendered page | @app.route("/add_category) has the appropiate GET and POST methods and returns the correct rendered page | PASS
 In edit_category.html, ensure the action method has the appropiate url_for to complete the edit category request | In edit_category.html, the action method has the appropiate url_for to complete the edit category request: {{ url_for('edit_category', category_id=category.id) }} | PASS
 Ensure the @app.route for edit_category has the appropiate decorator with the correct variables and methods | The @app.route for edit_category has the appropiate decorator with the correct variables and methods ("/edit_category/<category_id>", methods=["GET", "POST"]) | PASS
 Ensure the def edit_category() has the correct variable in order to correctly display the data in BSON format and renders the correct page | The def edit_category() has the correct variable in order to correctly display the data in BSON format and renders the correct page | PASS
 Ensure the @app.route for delete_category has the appropiate decorator with the correct variable | The @app.route for delete_category has the appropiate decorator with the correct variable ("/delete_category/<category_id>") | PASS
 Ensure the def delete_category() contains the correct functionality in order to remove a category from the database | The def delete_category() contains the correct functionality in order to remove a category from the database | PASS
+Ensure @app.route("/search") takes in the appropiate methods, GET and POST | @app.route("/search") takes in the appropiate methods, GET and POST | PASS
+Ensure the def search() takes in the appropiate variables, connects to the database in order to return various search results and renders the correct page | The def search() takes in the appropiate variables, connects to the database in order to return various search results and renders the correct page | PASS
 
 
 

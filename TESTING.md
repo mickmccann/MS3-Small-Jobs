@@ -180,6 +180,7 @@ Ensure the @app.route for delete_category has the appropiate decorator with the 
 Ensure the def delete_category() contains the correct functionality in order to remove a category from the database | The def delete_category() contains the correct functionality in order to remove a category from the database | PASS
 Ensure @app.route("/search") takes in the appropiate methods, GET and POST | @app.route("/search") takes in the appropiate methods, GET and POST | PASS
 Ensure the def search() takes in the appropiate variables, connects to the database in order to return various search results and renders the correct page | The def search() takes in the appropiate variables, connects to the database in order to return various search results and renders the correct page | PASS
+Ensure there is a conditional if block in place in case a search query returns no results | There is a conditional if block in place in case a search query returns no results | PASS
 
 
 

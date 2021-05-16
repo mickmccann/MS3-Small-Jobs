@@ -25,7 +25,7 @@
     </form>
 </div>
 
-
+{% if jobs|length > 0 %}
 <ul class="collapsible popout">
     {% for job in jobs %}
     <li>
@@ -81,6 +81,9 @@
     </li>
     {% endfor %}
 </ul>
+{% else %}
+    <h3 class="card-panel red-text center-align">Sorry! No results match your query.</h3>
+{% endif %}
 
 
 {% endblock %}

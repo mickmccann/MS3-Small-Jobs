@@ -1,8 +1,8 @@
 # Small Jobs
 
-Mock-up image goes here
+![Mockup image](wireframes/mockup_image.png)
 
-Live link goes here
+[Small Jobs - Live Site](https://small-jobs-project.herokuapp.com/)
 
 ---
 
@@ -63,12 +63,36 @@ All design decisions have been made with the following goals in mind:
 
 ### As a first-time visitor I want
 
-- To immediately understand what the purpose of the site is and what it can provide
+- To immediately understand what the purpose of the site is and what it can provide.
 
-- To see all content without having to register
-- To be able to search for keywords
-- To be able to filter activities by category
-- To be able to register easily without needing to input lots of information
+    - As a first time user, the main purpose of the website is all displayed on the homepage. If the site is not what they thought it was they can easily exit without having to go throughout the website.
+
+    ![Sites purpose](wireframes/sites_purpose.png)
+
+- To see all content without having to register.
+
+    - As a first time user, all job posts are made public to without having to register. This I feel is an important part of the UX as it gives the user a feel for the application, how the jobs work without feeling obliged to register. If it is a website for them, then they can proceed and register.
+
+    ![List of jobs](wireframes/job_list.png)
+
+    - By tapping on, or clicking on a job post, the job "pops out" containing the full job description. Tapping the job again, closes the job. It would have been just as easy to display the jobs' content in a table, but I like the interactivity of this. It also keeps things nice and compact.
+
+    - Job posts contain all relevant information such as contact name, contact email and a brief description of their requirements. 
+
+    ![Job description](wireframes/job_desc.png)
+
+- To be able to search for keywords.
+
+    - If the website ends up being populated with many job posts, the best way to filter through these post is to have a search field that returns a given query.  
+
+    ![Search query](wireframes/search.png)  
+
+- To be able to register easily without needing to input lots of information.
+
+    - A good feature of UX in regards to filing out online forms, is to have it as simple as possible. Often times, if there's too much information to input, this has the tendency to turn your potential new user away. My registration form takes in two fields, your username and a password.
+
+    ![Register form](wireframes/registration.png)
+
 
 ### As a returning user I want
 

@@ -97,16 +97,31 @@ All design decisions have been made with the following goals in mind:
 ### As a returning user I want
 
 - To log in and out easily
+    - If you want your to keep coming back, as good UX practice, like the register page, you want to keep the login page simple as well. The user wouldn't bother returning if they had to fill out a long form just to login agaim. So I've just added two fields, which keeps things nice and consistent.
+
+    ![Login page](wireframes/login.png)
 
 - To be able to add new job posts
+    - Creating a new job post is a simple process with a user friendly form.
+
+    ![Job post page](wireframes/job_post.png)
+
 - To be able to edit or delete job posts I have added
+    - If a user makes a mistake with their post or manages to get someone to carry out their requirements, they can either edit it, or mark it as done which deletes the job.
+
+![Job description](wireframes/job_desc.png) | ![Edit done](wireframes/edit_done.png)                  |  
+--------------- | -------------------------------- | ---------------
+
 - To be able to see all the jobs I have created in one place
 
-### As the site owner I want:
+### As the site Admin I want:
 
-- To be able to edit or remove content created by users
+- To be able to edit or remove content created by users. To be able to add, edit or remove categories
+    - The site admin has full control over the site. They have the ability to remove job posts created by other users. They also have the ability to create edit or completely remove categories.
 
-- To be able to add, edit or remove categories
+![Admin control](wireframes/admin_control.png)
+
+
 
 
 [^ back to contents ^](#contents)

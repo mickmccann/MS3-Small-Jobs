@@ -48,6 +48,10 @@ body {
     font-weight: 300;
 }
 
+.error-container {
+    margin-top: 10em;
+}
+
 .page-footer {
     margin-top: 6em;
 }

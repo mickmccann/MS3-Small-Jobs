@@ -18,6 +18,12 @@ app.secret_key = os.environ.get("SECRET_KEY")
 mongo = PyMongo(app)
 
 
+@app.errorhandler(404)
+def page_not_found(error):
+
+    return render_template('404.html', error=error), 404
+
+
 @app.route("/")
 @app.route("/register", methods=["GET", "POST"])
 def register():

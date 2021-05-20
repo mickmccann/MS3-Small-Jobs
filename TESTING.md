@@ -127,6 +127,7 @@ Ensure a pop-up modal is displayed before the Admin deletes a category | A pop-u
 Within the jobs.html page ensure the search field takes in the appropiate url_for for action and "post" for method | jobs.html page ensure the search field takes in the appropiate url_for for action and "post" for method | PASS
 Within the search div, ensure the RESET button reloads the jobs.html page taking in the appropiate url_for | Within the search div, the RESET button reloads the jobs.html page taking in the appropiate url_for | PASS
 Within the search div, ensure the SEARCH button returns the correct query result when submitted | Within the search div, the SEARCH button returns the correct query result when submitted | PASS
+Ensure if an incorrect address is typed into the web browser, a 404 error page is displayed | If an incorrect address is typed into the web browser, a 404 error page is displayed | PASS
 
 
 
@@ -181,6 +182,7 @@ Ensure the def delete_category() contains the correct functionality in order to 
 Ensure @app.route("/search") takes in the appropiate methods, GET and POST | @app.route("/search") takes in the appropiate methods, GET and POST | PASS
 Ensure the def search() takes in the appropiate variables, connects to the database in order to return various search results and renders the correct page | The def search() takes in the appropiate variables, connects to the database in order to return various search results and renders the correct page | PASS
 Ensure there is a conditional if block in place in case a search query returns no results | There is a conditional if block in place in case a search query returns no results | PASS
+Ensure the @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 404 page not found | The @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 404 page not found | PASS
 
 
 

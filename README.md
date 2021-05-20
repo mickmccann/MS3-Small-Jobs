@@ -20,6 +20,7 @@
 
         - [Typography](#typography)
 - [Website Features](#website-features)
+- [Site Map](#site-map)
 - [Database Design](#database-design)
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
@@ -110,8 +111,7 @@ All design decisions have been made with the following goals in mind:
 - To be able to edit or delete job posts I have added
     - If a user makes a mistake with their post or manages to get someone to carry out their requirements, they can either edit it, or mark it as done which deletes the job.
 
-![Job description](wireframes/job_desc.png) | ![Edit done](wireframes/edit_done.png)                  |  
---------------- | -------------------------------- | ---------------
+![Job description](wireframes/job_desc.png) | ![Edit done](wireframes/edit_done.png) |  
 
 - To be able to see all the jobs I have created in one place
 
@@ -196,9 +196,48 @@ All fonts have been obtained from [Google Fonts](https://fonts.google.com/)
 
 ---
 
+## Site Map
+
+![Site Map](wireframes/site_map.png)
+
+
+[^ back to contents ^](#contents)
+
+---
+
 ## Database Design
 
-Database design information goes here
+***User Collection***
+| **Key**  | **Type** |
+|----------|----------|
+| _id      | ObjectId |
+| username | string   |
+| password | string   |
+
+
+
+***Job Collection***
+| **Key**         | **Type** |
+|-----------------|----------|
+| _id             | ObjectId |
+| category_name   | string   |
+| company_name    | string   |
+| contact_name    | string   |
+| contact_email   | string   |
+| job_description | string   |
+| is_urgent       | boolean  |
+| due_date        | date     |
+| created_by      | string   |
+
+
+
+***Category Collection***
+| **Key**         | **Type** |
+|-----------------|----------|
+| _id             | ObjectId |           |
+| category_name   | string   | 
+
+
 
 [^ back to contents ^](#contents)
 
@@ -366,8 +405,6 @@ Obtained the background image from this free website https://wallpaperaccess.com
 
 # Acknowledgements
 
-Thanks to my mentor Brian for his support guidance and feedback for this project.
-
-And to my fellow CI students RachelS and Ed_B. Hopefully I can return the favours!
+Thanks to Code Institute tutor, Tim Nelson who initially created the Task Manager App that the code in this project is based on. To my mentor Brian Macharia for his support guidance and feedback for this project. And to my fellow CI students RachelS and Ed_B. Hopefully I can return the favours!
 
 [^ back to contents ^](#contents)

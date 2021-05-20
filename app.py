@@ -18,6 +18,24 @@ app.secret_key = os.environ.get("SECRET_KEY")
 mongo = PyMongo(app)
 
 
+@app.errorhandler(500)
+def server_error(error):
+    
+    return render_template('500.html', error=error), 500
+
+
+@app.errorhandler(401)
+def server_error(error):
+    
+    return render_template('401.html', error=error), 401
+
+
+@app.errorhandler(400)
+def server_error(error):
+    
+    return render_template('400.html', error=error), 400
+
+
 @app.errorhandler(404)
 def page_not_found(error):
 

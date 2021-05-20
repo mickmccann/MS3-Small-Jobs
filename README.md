@@ -270,6 +270,9 @@ The admin can:
 - A responsive menu will be implemented across the website so that on mobile devices the menu items will collapse down into a clickable button, or what is sometimes referred to as, as a "hamburger" menu. When a user clicks on a relevant link, they will then be redirected to the coresponding page. Om mobile devices when the menu is tapped, the items will slide out from the right of the screen.
 
 
+![Responsive menu](wireframes/responsive_menu.png)
+
+
 **4. 404 And 500 Error Pages:**
 - If a user inadvertently types in a wrong link into their broweser, I feel its good UX if that user is kept on your website with a link back to maybe the homepage. Websites that don't implement this, when a user is met with a generic error page, more often than not, they leave the website, typing an alternative address into the browser thinking that your website has gone down.
 

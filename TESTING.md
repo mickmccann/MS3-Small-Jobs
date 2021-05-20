@@ -182,7 +182,11 @@ Ensure the def delete_category() contains the correct functionality in order to 
 Ensure @app.route("/search") takes in the appropiate methods, GET and POST | @app.route("/search") takes in the appropiate methods, GET and POST | PASS
 Ensure the def search() takes in the appropiate variables, connects to the database in order to return various search results and renders the correct page | The def search() takes in the appropiate variables, connects to the database in order to return various search results and renders the correct page | PASS
 Ensure there is a conditional if block in place in case a search query returns no results | There is a conditional if block in place in case a search query returns no results | PASS
-Ensure the @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 404 page not found | The @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 404 page not found | PASS
+Ensure the @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 404 Page Not Found | The @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 404 Page Not Found | PASS
+Ensure the @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 400 Bad Request | The @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 400 Bad Request | PASS
+Ensure the @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 401 Unauthorised | The @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 401 Unauthorised | PASS
+Ensure the @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 500 Server Error | The @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 500 Server Error | PASS
+
 
 
 

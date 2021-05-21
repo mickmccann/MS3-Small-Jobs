@@ -206,7 +206,14 @@ Ensure the @app.errorhandler takes in the appropiate variable, returns the corre
 
 # Chrome Dev Tools - Lighthouse
 
-Lighthouse info goes here
+Lighthouse report generated for Desktop
+
+![Lighthouse report desktop](wireframes/lighthouse_report.png)
+
+Lighthouse report generated for Mobile
+
+![Lighthouse report desktop](wireframes/lighthouse_report2.png)
+
 
 [^ back to contents ^](#contents)
 

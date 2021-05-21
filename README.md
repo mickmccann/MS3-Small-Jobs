@@ -267,21 +267,24 @@ The admin can:
 - Delete any users' job posts
 
 **3. Responsive Menu:**
-- A responsive menu will be implemented across the website so that on mobile devices the menu items will collapse down into a clickable button, or what is sometimes referred to as, as a "hamburger" menu. When a user clicks on a relevant link, they will then be redirected to the coresponding page. Om mobile devices when the menu is tapped, the items will slide out from the right of the screen.
+
+A responsive menu will be implemented across the website so that on mobile devices the menu items will collapse down into a clickable button, or what is sometimes referred to as, as a "hamburger" menu. When a user clicks on a relevant link, they will then be redirected to the coresponding page. Om mobile devices when the menu is tapped, the items will slide out from the right of the screen.
 
 
 ![Responsive menu](wireframes/responsive_menu.png)
 
 
-**4. 404 And 500 Error Pages:**
-- If a user inadvertently types in a wrong link into their broweser, I feel its good UX if that user is kept on your website with a link back to maybe the homepage. Websites that don't implement this, when a user is met with a generic error page, more often than not, they leave the website, typing an alternative address into the browser thinking that your website has gone down.
+**4. Error Pages:**
 
+If a user inadvertently types in a wrong link into their broweser or if something internally goes wrong, I feel its good UX if that user is kept on your website with a link back to maybe the homepage rather than just having default error pages. Websites that don't implement this, when a user is met with a generic error page, more often than not, they leave the website, typing an alternative address into the browser thinking that your website has gone down. I've implemented, 400 Bad Request, 401 Unauthorised Access, 404 Page Not Found and 500 Internal Server Error across the website. 
+An example of a 404 Error Page
 
 ![404 error page](wireframes/404_error.png)
 
 
 **5. Profile Pictures:**
-- If I have the time, I would like to figure out how to have users upload their own profile picture. And then to be able to delete and upload a new one if they wish. This also promotes good UX as it gives the user a feeling of ownership.
+
+If I have the time, I would like to figure out how to have users upload their own profile picture. And then to be able to delete and upload a new one if they wish. This also promotes good UX as it gives the user a feeling of ownership.
 
 
 [^ back to contents ^](#contents)

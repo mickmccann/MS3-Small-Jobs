@@ -128,6 +128,9 @@ Within the jobs.html page ensure the search field takes in the appropiate url_fo
 Within the search div, ensure the RESET button reloads the jobs.html page taking in the appropiate url_for | Within the search div, the RESET button reloads the jobs.html page taking in the appropiate url_for | PASS
 Within the search div, ensure the SEARCH button returns the correct query result when submitted | Within the search div, the SEARCH button returns the correct query result when submitted | PASS
 Ensure if an incorrect address is typed into the web browser, a 404 error page is displayed | If an incorrect address is typed into the web browser, a 404 error page is displayed | PASS
+Ensure if the user inadvertently does something to provoke a 400 Bad Request, the correct page is displayed telling them what occurred | If the user inadvertently does something to provoke a 400 Bad Request, the correct page is displayed telling them what occurred | PASS
+Ensure if the user inadvertently does something to provoke a 401 Unauthorised Access, the correct page is displayed telling them what occurred | If the user inadvertently does something to provoke a 401 Unauthorised Access, the correct page is displayed telling them what occurred | PASS
+Ensure if the web server unexpectedly goes down, the correct 500 error is displayed telling them what occurred | If the web server unexpectedly goes down, the correct 500 error is displayed telling them what occurred | PASS
 
 
 

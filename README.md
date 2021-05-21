@@ -96,6 +96,7 @@ All design decisions have been made with the following goals in mind:
     ![Register form](wireframes/registration.png)
 
 
+
 ### As a returning user I want
 
 - To log in and out easily
@@ -121,8 +122,6 @@ All design decisions have been made with the following goals in mind:
     - The site admin has full control over the site. They have the ability to remove job posts created by other users. They also have the ability to create edit or completely remove categories.
 
 ![Admin control](wireframes/admin_control.png)
-
-
 
 
 [^ back to contents ^](#contents)
@@ -234,7 +233,7 @@ All fonts have been obtained from [Google Fonts](https://fonts.google.com/)
 ***Category Collection***
 | **Key**         | **Type** |
 |-----------------|----------|
-| _id             | ObjectId |           |
+| _id             | ObjectId |
 | category_name   | string   | 
 
 
@@ -281,8 +280,20 @@ An example of a 404 Error Page
 
 ![404 error page](wireframes/404_error.png)
 
+**5. The Favicon:**
 
-**5. Profile Pictures:**
+The favicon gets overlooked a lot in my opinion. Having your brand logo displayed on the browser's tab just makes things look a bit more professional. It shows the client the developer has taken into account the smaller details. It also looks much better than the default favicon, which is a picture of a globe.
+
+![Favicon](wireframes/favicon_browser.png)
+
+
+Utilising what a favicon can actually do, I implemented for the use on mobile and tablet devices. This means that if you create a shortcut to the website, the favicon appears which makes it look like a real app.
+
+![Favicon on mobile](wireframes/sj_app_icon.png)
+
+
+
+**6. Profile Pictures:**
 
 If I have the time, I would like to figure out how to have users upload their own profile picture. And then to be able to delete and upload a new one if they wish. This also promotes good UX as it gives the user a feeling of ownership.
 

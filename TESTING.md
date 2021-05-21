@@ -131,6 +131,12 @@ Ensure if an incorrect address is typed into the web browser, a 404 error page i
 Ensure if the user inadvertently does something to provoke a 400 Bad Request, the correct page is displayed telling them what occurred | If the user inadvertently does something to provoke a 400 Bad Request, the correct page is displayed telling them what occurred | PASS
 Ensure if the user inadvertently does something to provoke a 401 Unauthorised Access, the correct page is displayed telling them what occurred | If the user inadvertently does something to provoke a 401 Unauthorised Access, the correct page is displayed telling them what occurred | PASS
 Ensure if the web server unexpectedly goes down, the correct 500 error is displayed telling them what occurred | If the web server unexpectedly goes down, the correct 500 error is displayed telling them what occurred | PASS
+Ensure the favicon displays correctly in the browser tab on Chrome | The favicon displays correctly in the browser tab on Chrome | PASS
+Ensure the favicon displays correctly in the browser tab on Safari | The favicon displays correctly in the browser tab on Safari | PASS
+Ensure the favicon displays correctly in the browser tab on Firefox | The favicon displays correctly in the browser tab on Firefox | PASS
+Ensure the favicon displays correctly in the browser tab on Edge | The favicon displays correctly in the browser tab on Edge | PASS
+Ensure the faviconv displays correctly with the appearance of an app logo on apple devices | The faviconv displays correctly with the appearance of an app logo on apple devices | PASS
+Ensure the faviconv displays correctly with the appearance of an app logo on android devices | The faviconv displays correctly with the appearance of an app logo on android devices | PASS
 
 
 

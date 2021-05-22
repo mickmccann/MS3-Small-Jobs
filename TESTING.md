@@ -8,8 +8,10 @@ Back to [README](README.md)
 
 - [Manual Testing](#manual-testing)
     - [Front End Testing](#front-end-testing)
-
     - [Back End Testing](#back-end-testing)
+
+    - [Jinja For Looping and Routing Testing](#jinja-for-looping-and-routing-testing)
+
 - [Chrome Dev Tools - Lighthouse](#chrome-dev-tools-lighthouse)
 - [Responsiveness](#responsiveness)
 - [Bugs](#bugs)
@@ -75,18 +77,18 @@ Ensure website passes HTML validators | Outcome info | PASS or FAIL
 Ensure website passes CSS validators | Outcome info | PASS or FAIL
 Ensure website passes Jhint validators | Outcome info | PASS or FAIL
 Ensure website passes PEP8 validators | Outcome info | PASS or FAIL
-Ensure responsiveness of website across all major browsers | Outcome info | Pass or Fail
-Ensure the correct navigation items are displayed to the user when they are logged out | Outcome info |Pass or Fail
-Ensure the correct navigation items are displayed to the user when they are logged in | Outcome info |Pass or Fail
-Ensure all navigation items redirect to their appropiate pages | Outcome info | Pass or Fail
-Ensure the footer is displayed on all pages with the correct links and social media links | Outcome info | Pass or Fail
-Ensure the job description page works as intended with the appropiate functionality | Outcome info | Pass or Fail
-Ensure the register page works as intended with the appropiate functionality | Outcome info | Pass or Fail
-Ensure the login page works as intended with the appropiate functionality | Outcome info | Pass or Fail
-Ensure the create job page works as intended with the appropiate functionality | Outcome info | Pass or Fail
-Ensure the log out button works as intended with the appropiate functionality, ending the users' session | Outcome info | Pass or Fail
-Ensure error pages, 404 and 500 works as intended | Outcome info | Pass or Fail
-Ensure job descriptions "pop out" when tapped or clicked | Outcome info | Pass or Fail
+Ensure responsiveness of website across all major browsers | The website has been tested on Chrome, Safari, Firefox and Edge. The website displays as intended on desktop browsers and mobile browsers | PASS
+Ensure the correct navigation items are displayed to the user when they are logged out | When a user logs out or when a new user visits the site, only HOME, ALL JOBS, REGISTER and LOGIN are visible | PASS
+Ensure the correct navigation items are displayed to the user when they are logged in | The correct navigation items are displayed to the user when they are logged in. HOME, ALL JOBS, PROFILE, NEW JOBS, LOGOUT. When Admin is logged in MANAGE CATEGORIES is available | PASS
+Ensure all navigation items redirect to their appropiate pages | All navigation items redirect to their appropiate pages | PASS
+Ensure the footer is displayed on all pages with the correct links and social media links | The footer is displayed on all pages with the correct links and social media links. All links work and link to their appropiate pages and or websites | PASS
+Ensure the All Jobs page works as intended with the appropiate functionality | The All Jobs page works as intended with the appropiate functionality. When the user taps or clicks on a job description, the job post with all relavant details pop out in a nice accordion affect | PASS
+Ensure the register page works as intended with the appropiate functionality | The register page works as intended with the appropiate functionality. Username and Passwords can be between 4-15 characters long, using uppercase or lowercase letters and or numbers from 0-9 | PASS
+Ensure the login page works as intended with the appropiate functionality | The login page works as intended with the appropiate functionality | PASS
+Ensure the create job page works as intended with the appropiate functionality | The create job page works as intended with the appropiate functionality. Users fill out the required form and then SUBMIT the job which is then made public | PASS
+Ensure the log out button works as intended with the appropiate functionality, ending the users' session | Tnsure the log out button works as intended with the appropiate functionality, ending the users' session. A flash message is displayed confirming them that they have been logged out | PASS
+Ensure error pages, 404 and 500 works as intended | Error pages, 404 and 500 works as intended. Custom made error pages ensures the user stays on the website | PASS
+Ensure job descriptions "pop out" when tapped or clicked | Job descriptions "pop out" when tapped or clicked | PASS
 Ensure when you click on the EDIT button, within the Job Category dropdown list, the original selected category remains selected | When you click on the EDIT button, within the Job Category dropdown list, the original selected category remains selected | PASS
 Ensure when you click on the EDIT button, within Business Name field, the original inputed field name is selected | When you click on the EDIT button, within Business Name field,the original inputed field name is selected | PASS
 Ensure when you click on the EDIT button, within Contact Name field, the original inputed field name is selected | When you click on the EDIT button, within Contact Name field, the original inputed field name is selected | PASS
@@ -139,6 +141,7 @@ Ensure the faviconv displays correctly with the appearance of an app logo on app
 Ensure the faviconv displays correctly with the appearance of an app logo on android devices | The faviconv displays correctly with the appearance of an app logo on android devices | PASS
 
 
+[^ back to contents ^](#contents)
 
 
 ## Back End Testing
@@ -172,13 +175,26 @@ When the Admin successfully updates a category, ensure an appropiate flash messa
 When the Admin deletes a category, ensure an appropiate flash message is displayed | When the Admin deletes a category, an appropiate flash message is displayed [Flash message](wireframes/del_cat.png) | PASS
 
 
+[^ back to contents ^](#contents)
 
 
-## Jinja, For Looping and Routing Testing
+
+## Jinja For Looping and Routing Testing
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Ensure CATEGORIES on categories.html are converted into a list and are displayed alphabetically | CATEGORIES on categories.html are converted into a list and are displayed alphabetically | PASS
+Ensure @app.route("/register") has the appropiate GET and POST methods | @app.route("/register") has the appropiate GET and POST methods | PASS
+Ensure def register(): is connected to database to add a new user to the database | def register(): is connected to database which allows the user to be registered. Users can't register if a username already exists | PASS
+Ensure @app.route("/get_jobs") takes in a function that returns the corrected rendered template and displays jobs as a list | @app.route("/get_jobs") takes in a function that returns the corrected rendered template and displays jobs as a list | PASS
+Ensure @app.route(search) takes in the required GET and POST methods with correct routing | @app.route(search) takes in the required GET and POST methods with correct routing | PASS
+Ensure the def search(): connects to the database and returns a query. It should also render the correct page taking in the correct variables | def search(): connects to the database and returns a query. It should also render the correct page taking in the correct variables | PASS
+Ensure @app.route(login) takes in the required GET and POST methods with correct routing | @app.route(login) takes in the required GET and POST methods with correct routing | PASS
+Ensure the def login(): connects to the database so users can correctly log back in again using the credentials used to register initially | def login(): connects to the database so users can correctly log back in again using the credentials used to register initially | PASS
+Ensure @app.route(profile) takes in the required variable, GET and POST methods with correct routing | @app.route(profile) takes in the required variable, GET and POST methods with correct routing | PASS
+Ensure def profile() contains the correct variable, grabs the session user's username from database and renders the correct page | def profile() contains the correct variable, grabs the session user's username from database and renders the correct page | PASS
+Ensure @app.route(logout) has the correct routing | @app.route(logout) has the correct routing | PASS
+Ensure def logout(): contains the correct functionality to remove user from session cookie | def logout(): contains the correct functionality to remove user from session cookie | PASS
 Ensure @app.route("/get_categories") has the appropiate function and is routed in order to displayed the correct page | @app.route("/get_categories") has the appropiate function and is routed in order to displayed the correct page | PASS
 Ensure Jinja for loop loops through the category list without any bugs showing | Jinja for loop loops through the category list without any bugs showing | PASS
 Ensure Jinja If statement applied on the navbars, Manage Jobs page restricts access to the Admin only | Jinja If statement applied on the navbars, Manage Jobs page restricts access to the Admin only | PASS
@@ -195,9 +211,6 @@ Ensure the @app.errorhandler takes in the appropiate variable, returns the corre
 Ensure the @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 400 Bad Request | The @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 400 Bad Request | PASS
 Ensure the @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 401 Unauthorised | The @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 401 Unauthorised | PASS
 Ensure the @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 500 Server Error | The @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 500 Server Error | PASS
-
-
-
 
 
 [^ back to contents ^](#contents)
@@ -221,11 +234,18 @@ Lighthouse report generated for Mobile
 
 # Responsiveness
 
+The website responsiveness has been thoroughly tested on: 
 
 
-[^ back to contents ^](#contents)
+1: Chrome, Safari, Firefox and Edge using MacBook
 
----
+2: Chrome, Safari, Firefox and Edge using PC laptop 
+
+3: Chrome, Safari, Firefox and Edge using iPhone
+
+4: Chrome, Safari, Firefox and Edge using Android
+
+Testing across multiple devices and laptops ensured website consistency throughout.
 
 # Bugs 
 

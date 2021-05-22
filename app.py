@@ -25,13 +25,13 @@ def server_error(error):
 
 
 @app.errorhandler(401)
-def server_error(error):
+def unauthorized_access(error):
     
     return render_template('401.html', error=error), 401
 
 
 @app.errorhandler(400)
-def server_error(error):
+def bad_request(error):
     
     return render_template('400.html', error=error), 400
 

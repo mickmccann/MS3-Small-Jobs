@@ -75,9 +75,7 @@ TEST            | OUTCOME                          | PASS / FAIL
 --------------- | -------------------------------- | ---------------
 Ensure website passes HTML validators | HTML passes validation | PASS
 Ensure website passes CSS validators | CSS passes validation, no errors found | PASS
-Ensure website passes JSHint validators | The script.js file passes the JSHint validation with just these two warnings: Two warnings
-20	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)
-21	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz) | PASS
+Ensure website passes JSHint validators | The script.js file passes the JSHint validation with just these two warnings: Two warnings 20	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz) 21	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz) | PASS
 Ensure website passes PEP8 validators | The app.py file passes PEP8 validation without any errors | PASS
 Ensure responsiveness of website across all major browsers | The website has been tested on Chrome, Safari, Firefox and Edge. The website displays as intended on desktop browsers and mobile browsers | PASS
 Ensure the correct navigation items are displayed to the user when they are logged out | When a user logs out or when a new user visits the site, only HOME, ALL JOBS, REGISTER and LOGIN are visible | PASS

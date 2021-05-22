@@ -20,19 +20,19 @@ mongo = PyMongo(app)
 
 @app.errorhandler(500)
 def server_error(error):
-    
+
     return render_template('500.html', error=error), 500
 
 
 @app.errorhandler(401)
 def unauthorized_access(error):
-    
+
     return render_template('401.html', error=error), 401
 
 
 @app.errorhandler(400)
 def bad_request(error):
-    
+
     return render_template('400.html', error=error), 400
 
 
@@ -194,8 +194,8 @@ def get_categories():
 @app.route("/add_category", methods=["GET", "POST"])
 def add_category():
     if request.method == "POST":
-        category = { 
-            "category_name": request.form.get("category_name") 
+        category = {
+            "category_name": request.form.get("category_name")
         }
         mongo.db.categories.insert_one(category)
         flash("New Job Category Added!")
@@ -228,4 +228,4 @@ def delete_category(category_id):
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
-            debug=True) # change this to false before submitting
+            debug=True)  # change this to false before submitting

@@ -73,7 +73,7 @@ In order to address this issue, I put the buttons into the job description, whic
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
-Ensure website passes HTML validators | Outcome info | PASS or FAIL
+Ensure website passes HTML validators | HTML passes validation | PASS
 Ensure website passes CSS validators | CSS passes validation, no errors found | PASS
 Ensure website passes JSHint validators | The script.js file passes the JSHint validation with just these two warnings: Two warnings
 20	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)

@@ -6,29 +6,29 @@
 
 ---
 
-## Contents
+# Contents
 
-- 1 - [About the Project](#1-about-the-project)
+- [1. About the Project](#1-about-the-project)
 
-- 2 - [User Experience](#2-user-experience)
+- [2. User Experience](#2-user-experience)
     
-    - 2 i - [Project Outline](#2-i-project-outline)
+    - [2i. Project Outline](#2-i-project-outline)
 
-    -  2 ii - [User Stories](#2-ii-user-stories)
-- 3 - [Wireframes](#3-wireframes)
-- 4 - [Website Design](#4-website-design)
+    -  [2ii. User Stories](#2-ii-user-stories)
+- [3. Wireframes](#3-wireframes)
+- [4. Website Design](#4-website-design)
 
-    - 4 i - [Colour Scheme](#4-i-colour-scheme)
+    - [4i. Colour Scheme](#4-i-colour-scheme)
 
-    - 4 ii - [Typography](#4-ii-typography)
-- 5 - [Site Map](#5-site-map)
-- 6 - [Database Design](#6-database-design)
-- 7 - [Website Features](#7-website-features)
-- 8 - [Technologies Used](#8-technologies-used)
-- 9 - [Deployment](#9-deployment)
-- 10 - [Testing](#10-testing)
-- 11 - [Credits](#11-credits)
-- 12 - [Acknowledgements](#12-acknowledgements)
+    - [4ii. Typography](#4-ii-typography)
+- [5. Site Map](#5-site-map)
+- [6. Database Design](#6-database-design)
+- [7. Website Features](#7-website-features)
+- [8. Technologies Used](#8-technologies-used)
+- [9. Deployment](#9-deployment)
+- [10. Testing](#10-testing)
+- [11. Credits](#11-credits)
+- [12. Acknowledgements](#12-acknowledgements)
 
 ---
 

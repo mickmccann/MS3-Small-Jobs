@@ -8,29 +8,31 @@
 
 ## Contents
 
-- [About the Project](#about-the-project)
+- 1 - [About the Project](#about-the-project)
 
-- [User Experience](#user-experience)
-    - [Project Outline](#project-outline)
-    - [User Stories](#user-stories)
-    - [Wireframes](#wireframes)
-    - [Website Design](#website-design)
+- 2 - [User Experience](#user-experience)
+    
+    - 2 i - [Project Outline](#project-outline)
 
-        - [Colour Scheme](#colour-scheme)
+    -  2 ii - [User Stories](#user-stories)
+- 3 - [Wireframes](#wireframes)
+- 4 - [Website Design](#website-design)
 
-        - [Typography](#typography)
-- [Website Features](#website-features)
-- [Site Map](#site-map)
-- [Database Design](#database-design)
-- [Technologies Used](#technologies-used)
-- [Deployment](#deployment)
-- [Testing](#testing)
-- [Credits](#credits)
-- [Acknowledgements](#acknowledgements)
+    - 4 i - [Colour Scheme](#colour-scheme)
+
+    - 4 ii - [Typography](#typography)
+- 5 - [Site Map](#site-map)
+- 6 - [Database Design](#database-design)
+- 7 - [Website Features](#website-features)
+- 8 - [Technologies Used](#technologies-used)
+- 9 - [Deployment](#deployment)
+- 10 - [Testing](#testing)
+- 11 - [Credits](#credits)
+- 12 - [Acknowledgements](#acknowledgements)
 
 ---
 
-# About the Project
+# 1. About the Project
 
 Small Jobs is a place whereby people can post a small web developing projects. Think of it as a jobs notice board you might find on a wall in your local community hall or college. Its aim is to promote jobs to skilled developers who might have been made redundant due to Covid. So that's the basic idea of Small Jobs, it's not meant to be flashy with all bells and whistles, I'll leave that to LinkedIn.
 
@@ -39,9 +41,9 @@ Small Jobs is a place whereby people can post a small web developing projects. T
 
 ---
 
-# User Experience
+# 2. User Experience
 
-## Project Outline
+## 2 i Project Outline
 
 Small Jobs is a web application aimed at developers who may have been made redundant due to the ongoing Covid pandemic. Visitors to the website will be users looking for a small job, nixer or freelance job, something to keep their developing skills in tip-top shape. Job listings are available to all visitors without having to register, but once registered users can create, edit or delete a job post. 
 
@@ -52,7 +54,7 @@ All design decisions have been made with the following goals in mind:
 - Responsiveness design
 
 
-## User Stories
+## 2 ii User Stories
 
 ### User experience
 
@@ -129,7 +131,7 @@ All design decisions have been made with the following goals in mind:
 ---
 
 
-# Wireframes
+# 3 - Wireframes
 
 Wireframes designed for **mobile**, **tablet** and **desktop** created at the initial design phase.
 
@@ -153,7 +155,7 @@ Wireframes designed for **mobile**, **tablet** and **desktop** created at the in
 
 ---
 
-# Website Design
+# 4 - Website Design
 
 The website will be designed with the help of a [Materialize](https://materializecss.com/). A modern responsive front-end framework based on Material Design. Very much similar to Bootstrap although maybe not as well known, it comes with some excellent features.
 
@@ -166,7 +168,7 @@ Pages on the website will be:
 
 Design will be consistent across all devices making sure that users dont get lost as they navigate throughout the site.
 
-## Colour scheme
+## 4 i Colour scheme
 
 After going through a few different colour schemes on [coolers.co](https://coolors.co/) I eventually chose the below palette. I like it because the colours aren't too serious but at the same time they are quite classy. The off-white is appealing as it's not going to hurt the eyes with the way pure white can sometimes be. The shades of purple, green and yellow say success to me and the tan colour compliments the off white.
 
@@ -177,7 +179,7 @@ Below is a wireframe of how I see the colours working together on the website.
 ![Small Jobs colored wireframe](wireframes/sj_color_wireframe.png)
 
 
-## Typography 
+## 4 ii Typography 
 
 For the websites fonts I will be using the tried and trusted Roboto for the headings, body text, menu and links. It's a well designed font which makes reading text on screens easier on the eyes. I find that serif fonts work best across all screens whether they have retina displays or not as there's little to no pixelation.
 
@@ -195,7 +197,7 @@ All fonts have been obtained from [Google Fonts](https://fonts.google.com/)
 
 ---
 
-## Site Map
+# 5. Site Map
 
 ![Site Map](wireframes/site_map.png)
 
@@ -204,7 +206,7 @@ All fonts have been obtained from [Google Fonts](https://fonts.google.com/)
 
 ---
 
-## Database Design
+# 6. Database Design
 
 ***User Collection***
 | **Key**  | **Type** |
@@ -242,7 +244,7 @@ All fonts have been obtained from [Google Fonts](https://fonts.google.com/)
 
 ---
 
-## Website Features
+# 7. Website Features
 
 **1. Secure Passwords**
 
@@ -302,7 +304,7 @@ If I have the time, I would like to figure out how to have users upload their ow
 
 ---
 
-# Technologies Used
+# 8. Technologies Used
 
 ## Languages
 
@@ -346,7 +348,7 @@ If I have the time, I would like to figure out how to have users upload their ow
 
 ---
 
-# Deployment
+# 9. Deployment
 
 Using [Gitpod](https://www.gitpod.io/), I created the Small Jobs web application. Then, using Git commits I pushed the project to my GitHub repository. [Heroku](https://www.heroku.com/) was used with the deployment of the live website. Connecting Gitpod / GitHub to Heroku meant that any git commits changes automatically updated the live site. 
 
@@ -405,7 +407,7 @@ Go to settings, and within Config Vars enter the following
 
 ---
 
-# Testing
+# 10. Testing
 
 Full details on the relevant testing can be found here: [Testing](TESTING.md)
 
@@ -414,7 +416,7 @@ Full details on the relevant testing can be found here: [Testing](TESTING.md)
 
 ---
 
-# Credits
+# 11. Credits
 
 ## Resources
 
@@ -425,7 +427,7 @@ Obtained the background image from this free website https://wallpaperaccess.com
 
 ---
 
-# Acknowledgements
+# 12. Acknowledgements
 
 Thanks to Code Institute tutor, Tim Nelson who initially created the Task Manager App that the code in this project is based on. To my mentor Brian Macharia for his support guidance and feedback for this project. And to my fellow CI students RachelS and Ed_B. Hopefully I can return the favours!
 

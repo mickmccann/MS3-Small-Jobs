@@ -4,22 +4,23 @@ Back to [README](README.md)
 
 # Contents
 
-- [Testing User Stories](#user-stories)
+- 1 - [Testing User Stories](#user-stories)
 
-- [Manual Testing](#manual-testing)
-    - [Front End Testing](#front-end-testing)
-    - [Back End Testing](#back-end-testing)
+- 2 - [Manual Testing](#manual-testing)
+    - 2 i - [Front End Testing](#front-end-testing)
+    - 2 ii - [Back End Testing](#back-end-testing)
+    - 2 iii - [Detailed Testing](#detailed-testing)
 
-    - [Jinja For Looping and Routing Testing](#jinja-for-looping-and-routing-testing)
+    - 2 iv - [Jinja For Looping and Routing Testing](#jinja-for-looping-and-routing-testing)
 
-- [Chrome Dev Tools - Lighthouse](#chrome-dev-tools-lighthouse)
-- [Responsiveness](#responsiveness)
-- [Bugs](#bugs)
+- 3 - [Chrome Dev Tools - Lighthouse](#chrome-dev-tools-lighthouse)
+- 4 - [Responsiveness](#responsiveness)
+- 5 - [Bugs](#bugs)
 
 ---
 
 
-# Testing User Stories
+# 1. Testing User Stories
 
 ## Testing UX
 
@@ -67,9 +68,9 @@ In order to address this issue, I put the buttons into the job description, whic
 
 ---
 
-# Manual Testing
+# 2. Manual Testing
 
-## Front End Testing
+## 2 i. Front End Testing
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -144,7 +145,7 @@ Ensure the faviconv displays correctly with the appearance of an app logo on and
 [^ back to contents ^](#contents)
 
 
-## Back End Testing
+## 2 ii. Back End Testing
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -179,7 +180,7 @@ When the Admin deletes a category, ensure an appropiate flash message is display
 
 
 
-## Jinja For Looping and Routing Testing
+## 2 iii. Jinja For Looping and Routing Testing
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -215,9 +216,116 @@ Ensure the @app.errorhandler takes in the appropiate variable, returns the corre
 
 [^ back to contents ^](#contents)
 
+
+## 2 iv. Detailed Testing
+
+### Navigation Testing
+
+When a new User visits or is logged out, 3 links are visible in the main navbar, in the mobile navbar and in the footer navbar.
+
+They are:
+
+**ALL JOBS - LOGIN - REGISTER**
+
+**DESKTOP**
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Does clicking on Small Jobs logo in the main navbar take the User to the appropriate page | Yes, clicking on Small Jobs logo takes the User to the appropiate page https://small-jobs-project.herokuapp.com/get_jobs | PASS
+Does clicking on All Jobs in the main navbar take the User to the appropriate page | Yes, clicking on All Jobs takes the User to the appropiate page https://small-jobs-project.herokuapp.com/get_jobs | PASS
+Does clicking on Login in the main navbar take the User to the appropiate page | Yes, clicking on Login takes the User to the appropiate page https://small-jobs-project.herokuapp.com/login | PASS
+Does clicking on Register in the main navbar take the User to the appropiate page | Yes, clicking on Register takes the User to the appropiate page https://small-jobs-project.herokuapp.com/register | PASS
+
+
+**MOBILE**
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Does tapping on All Jobs in the mobile navbar take the User to the appropriate page | Yes, tapping on All Jobs takes the User to the appropiate page https://small-jobs-project.herokuapp.com/get_jobs | PASS
+Does clicking on tapping in the mobile navbar take the User to the appropiate page | Yes, tapping on Login takes the User to the appropiate page https://small-jobs-project.herokuapp.com/login | PASS
+Does tapping on Register in the mobile navbar take the User to the appropiate page | Yes, tapping on Register takes the User to the appropiate page https://small-jobs-project.herokuapp.com/register | PASS
+
+**FOOTER**
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Does clicking on All Jobs in the footer navbar take the User to the appropriate page | Yes, clicking on All Jobs takes the User to the appropiate page https://small-jobs-project.herokuapp.com/get_jobs | PASS
+Does clicking on Login in the footer navbar take the User to the appropiate page | Yes, clicking on Login takes the User to the appropiate page https://small-jobs-project.herokuapp.com/login | PASS
+Does clicking on Register in the footer navbar take the User to the appropiate page | Yes, clicking on Register takes the User to the appropiate page https://small-jobs-project.herokuapp.com/register | PASS
+
+**EXTERNAL FOOTER LINKS**
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Does clicking on the LinkedIn logo take the User to the correct website in a new tab | Yes, clicking on the LinkedIn logo take the User to the correct website in a new tab | PASS
+Does clicking on the Instagram logo take the User to the correct website in a new tab | Yes, clicking on the Instagram logo take the User to the correct website in a new tab | PASS
+Does clicking on the Twitter logo take the User to the correct website in a new tab | Yes, clicking on the Twitter logo take the User to the correct website in a new tab | PASS
+Does clicking on the Facebook logo take the User to the correct website in a new tab | Yes, clicking on the Facebook logo take the User to the correct website in a new tab | PASS
+Does
+clicking on the LinkedIn logo take the User to the correct website in a new tab | Yes, clicking on the LinkedIn logo take the User to the correct website in a new tab | PASS
+
+
+When a new User is logged in, 4 links are visible in the main navbar, in the mobile navbar and in the footer navbar.
+
+They are:
+
+**ALL JOBS - PROFILE - NEW JOBS - LOG OUT**
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Does clicking on Small Jobs logo in the main navbar take the User to the appropriate page | Yes, clicking on Small Jobs logo takes the User to the appropiate page https://small-jobs-project.herokuapp.com/get_jobs | PASS
+Does clicking on All Jobs in the main navbar take the User to the appropriate page | Yes, clicking on All Jobs takes the User to the appropiate page https://small-jobs-project.herokuapp.com/get_jobs | PASS
+Does clicking on Profile in the main navbar take the User to the appropiate page | Yes, clicking on Profile takes the User to the appropiate page https://small-jobs-project.herokuapp.com/<username> | PASS
+Does clicking on Logout in the main navbar take the User to the appropiate page | Yes, clicking on Logout takes the User to the appropiate page https://small-jobs-project.herokuapp.com/logout | PASS
+
+
+    
+When the Admin is logged in, an extra link is visible in the main navbar, in the mobile navbar and in the footer navbar.
+    
+This is:
+
+**MANAGE CATAGORIES**
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Does clicking on Manage Categories in the main navbar take the User to the appropriate page | Yes, clicking on Manage Categories takes the User to the appropiate page https://small-jobs-project.herokuapp.com/get_categories | PASS
+
+
+### Form Testing
+
+Testing Register Scenarios
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Is the User allowed to register with the site without meeting the correct form criteria | No, a User is not allowed to register with the site without meeting the correct form criteria. Username and Passwords can be between 4-15 characters long, using uppercase or lowercase letters and or numbers from 0-9 | PASS
+
+Testing Login Scenarios
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Is the User allowed to login without providing a password | No, the User is not allowed to login without providing a password | PASS
+Is the User allowed to login without providing a username | No, the User is not allowed to login without providing a username | PASS
+
+Testing Add A Job Scenarios
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Is the Job Category Dropdown marked as a required field | Yes, the Job Category Dropdown is marked as a required field. Job cannot be submitted unless this is selected | PASS
+Is the Business Name marked as a required field | Yes, the Business Name is marked as a required field. Job cannot be submitted unless this is filled | PASS
+Is the Contact Name marked as a required field | Yes, the Contact Name is marked as a required field. Job cannot be submitted unless this is filled | PASS
+Is the Contact Email marked as a required field | Yes, the Contact Email is marked as a required field. Job cannot be submitted unless this is filled | PASS
+Can the User put in a phone number or another invalid entry into the Contact Email and submit the form | No, the User cannot put in a phone number or another invalid entry into the Contact Email and submit the form | PASS
+Is the Job Name marked as a required field | Yes, the Job Name is marked as a required field. Job cannot be submitted unless this is filled | PASS
+Is the Job Description marked as a required field | Yes, the Job Description is marked as a required field. Job cannot be submitted unless this is filled | PASS
+Is the Choose A Due Date marked as a required field | Yes, the Choose A Due Date is marked as a required field. Job cannot be submitted unless this is filled | PASS
+
+
+
+[^ back to contents ^](#contents)
+
 ---
 
-# Chrome Dev Tools - Lighthouse
+# 3. Chrome Dev Tools - Lighthouse
 
 Lighthouse report generated for Desktop
 
@@ -232,22 +340,22 @@ Lighthouse report generated for Mobile
 
 ---
 
-# Responsiveness
+# 4. Responsiveness
 
 The website responsiveness has been thoroughly tested on: 
 
 
-1: Chrome, Safari, Firefox and Edge using MacBook
+1. Chrome, Safari, Firefox and Edge using MacBook
 
-2: Chrome, Safari, Firefox and Edge using PC laptop 
+2. Chrome, Safari, Firefox and Edge using PC laptop 
 
-3: Chrome, Safari, Firefox and Edge using iPhone
+3. Chrome, Safari, Firefox and Edge using iPhone
 
-4: Chrome, Safari, Firefox and Edge using Android
+4. Chrome, Safari, Firefox and Edge using Android
 
 Testing across multiple devices and laptops ensured website consistency throughout.
 
-# Bugs 
+# 5. Bugs 
 
 ## Job Category Dropdown
 

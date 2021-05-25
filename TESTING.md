@@ -14,7 +14,7 @@ Back to [README](README.md)
     - [2iii. Jinja For Looping and Routing Testing](#2-iii-jinja-for-looping-and-routing-testing)
     - [2iv. Detailed Testing](#2-iv-detailed-testing)
 
-- [3. Chrome Dev Tools - Lighthouse](#3-chrome-dev-tools-lighthouse)
+- [3. Chrome Dev Tools Lighthouse](#3-chrome-dev-tools-lighthouse)
 - [4. Responsiveness](#4-responsiveness)
 - [5. Bugs](#5-bugs)
 
@@ -326,7 +326,7 @@ Is the Choose A Due Date marked as a required field | Yes, the Choose A Due Date
 
 ---
 
-# 3 Chrome Dev Tools - Lighthouse
+# 3 Chrome Dev Tools Lighthouse
 
 Lighthouse report generated on MacBook for Desktop
 

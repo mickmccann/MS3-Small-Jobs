@@ -8,27 +8,27 @@
 
 ## Contents
 
-- 1 - [About the Project](#about-the-project)
+- 1 - [About the Project](#1.-about-the-project)
 
-- 2 - [User Experience](#user-experience)
+- 2 - [User Experience](#2.-user-experience)
     
-    - 2 i - [Project Outline](#project-outline)
+    - 2 i - [Project Outline](#2-i.-project-outline)
 
-    -  2 ii - [User Stories](#user-stories)
-- 3 - [Wireframes](#wireframes)
-- 4 - [Website Design](#website-design)
+    -  2 ii - [User Stories](#2-ii.-user-stories)
+- 3 - [Wireframes](#3.-wireframes)
+- 4 - [Website Design](#4.-website-design)
 
-    - 4 i - [Colour Scheme](#colour-scheme)
+    - 4 i - [Colour Scheme](#4-i.-colour-scheme)
 
-    - 4 ii - [Typography](#typography)
-- 5 - [Site Map](#site-map)
-- 6 - [Database Design](#database-design)
-- 7 - [Website Features](#website-features)
-- 8 - [Technologies Used](#technologies-used)
-- 9 - [Deployment](#deployment)
-- 10 - [Testing](#testing)
-- 11 - [Credits](#credits)
-- 12 - [Acknowledgements](#acknowledgements)
+    - 4 ii - [Typography](#4-ii.-typography)
+- 5 - [Site Map](#5.-site-map)
+- 6 - [Database Design](#6.-database-design)
+- 7 - [Website Features](#7.-website-features)
+- 8 - [Technologies Used](#8.-technologies-used)
+- 9 - [Deployment](#9.-deployment)
+- 10 - [Testing](#10.-testing)
+- 11 - [Credits](#11.-credits)
+- 12 - [Acknowledgements](#12.-acknowledgements)
 
 ---
 
@@ -43,7 +43,7 @@ Small Jobs is a place whereby people can post a small web developing projects. T
 
 # 2. User Experience
 
-## 2 i Project Outline
+## 2 i. Project Outline
 
 Small Jobs is a web application aimed at developers who may have been made redundant due to the ongoing Covid pandemic. Visitors to the website will be users looking for a small job, nixer or freelance job, something to keep their developing skills in tip-top shape. Job listings are available to all visitors without having to register, but once registered users can create, edit or delete a job post. 
 
@@ -54,7 +54,7 @@ All design decisions have been made with the following goals in mind:
 - Responsiveness design
 
 
-## 2 ii User Stories
+## 2 ii. User Stories
 
 ### User experience
 
@@ -131,7 +131,7 @@ All design decisions have been made with the following goals in mind:
 ---
 
 
-# 3 - Wireframes
+# 3. Wireframes
 
 Wireframes designed for **mobile**, **tablet** and **desktop** created at the initial design phase.
 
@@ -155,7 +155,7 @@ Wireframes designed for **mobile**, **tablet** and **desktop** created at the in
 
 ---
 
-# 4 - Website Design
+# 4. Website Design
 
 The website will be designed with the help of a [Materialize](https://materializecss.com/). A modern responsive front-end framework based on Material Design. Very much similar to Bootstrap although maybe not as well known, it comes with some excellent features.
 
@@ -168,7 +168,7 @@ Pages on the website will be:
 
 Design will be consistent across all devices making sure that users dont get lost as they navigate throughout the site.
 
-## 4 i Colour scheme
+## 4 i. Colour scheme
 
 After going through a few different colour schemes on [coolers.co](https://coolors.co/) I eventually chose the below palette. I like it because the colours aren't too serious but at the same time they are quite classy. The off-white is appealing as it's not going to hurt the eyes with the way pure white can sometimes be. The shades of purple, green and yellow say success to me and the tan colour compliments the off white.
 
@@ -179,7 +179,7 @@ Below is a wireframe of how I see the colours working together on the website.
 ![Small Jobs colored wireframe](wireframes/sj_color_wireframe.png)
 
 
-## 4 ii Typography 
+## 4 ii. Typography 
 
 For the websites fonts I will be using the tried and trusted Roboto for the headings, body text, menu and links. It's a well designed font which makes reading text on screens easier on the eyes. I find that serif fonts work best across all screens whether they have retina displays or not as there's little to no pixelation.
 

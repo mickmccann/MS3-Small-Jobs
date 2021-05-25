@@ -4,18 +4,18 @@ Back to [README](README.md)
 
 # Contents
 
-- 1 - [Testing User Stories](#user-stories)
+- 1 - [Testing User Stories](#1.-testing-user-stories)
 
-- 2 - [Manual Testing](#manual-testing)
-    - 2 i - [Front End Testing](#front-end-testing)
-    - 2 ii - [Back End Testing](#back-end-testing)
-    - 2 iii - [Detailed Testing](#detailed-testing)
+- 2 - [Manual Testing](#2.-manual-testing)
+    - 2 i - [Front End Testing](#2-i.-front-end-testing)
+    - 2 ii - [Back End Testing](#2-ii.-back-end-testing)
+    - 2 iii - [Detailed Testing](#2-iii.-detailed-testing)
 
-    - 2 iv - [Jinja For Looping and Routing Testing](#jinja-for-looping-and-routing-testing)
+    - 2 iv - [Jinja For Looping and Routing Testing](#2-iv.-jinja-for-looping-and-routing-testing)
 
-- 3 - [Chrome Dev Tools - Lighthouse](#chrome-dev-tools-lighthouse)
-- 4 - [Responsiveness](#responsiveness)
-- 5 - [Bugs](#bugs)
+- 3 - [Chrome Dev Tools - Lighthouse](#3.-chrome-dev-tools-lighthouse)
+- 4 - [Responsiveness](#4.-responsiveness)
+- 5 - [Bugs](#5.-bugs)
 
 ---
 

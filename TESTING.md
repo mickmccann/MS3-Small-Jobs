@@ -4,23 +4,23 @@ Back to [README](README.md)
 
 # Contents
 
-- 1 - [Testing User Stories](#1.-testing-user-stories)
+- 1 - [Testing User Stories](#1-testing-user-stories)
 
-- 2 - [Manual Testing](#2.-manual-testing)
-    - 2 i - [Front End Testing](#2-i.-front-end-testing)
-    - 2 ii - [Back End Testing](#2-ii.-back-end-testing)
-    - 2 iii - [Detailed Testing](#2-iii.-detailed-testing)
+- 2 - [Manual Testing](#2-manual-testing)
+    - 2 i - [Front End Testing](#2-i-front-end-testing)
+    - 2 ii - [Back End Testing](#2-ii-back-end-testing)
+    - 2 iii - [Detailed Testing](#2-iii-detailed-testing)
 
-    - 2 iv - [Jinja For Looping and Routing Testing](#2-iv.-jinja-for-looping-and-routing-testing)
+    - 2 iv - [Jinja For Looping and Routing Testing](#2-iv-jinja-for-looping-and-routing-testing)
 
-- 3 - [Chrome Dev Tools - Lighthouse](#3.-chrome-dev-tools-lighthouse)
-- 4 - [Responsiveness](#4.-responsiveness)
-- 5 - [Bugs](#5.-bugs)
+- 3 - [Chrome Dev Tools - Lighthouse](#3-chrome-dev-tools-lighthouse)
+- 4 - [Responsiveness](#4-responsiveness)
+- 5 - [Bugs](#5-bugs)
 
 ---
 
 
-# 1. Testing User Stories
+# 1 Testing User Stories
 
 ## Testing UX
 
@@ -68,9 +68,9 @@ In order to address this issue, I put the buttons into the job description, whic
 
 ---
 
-# 2. Manual Testing
+# 2 Manual Testing
 
-## 2 i. Front End Testing
+## 2 i Front End Testing
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -145,7 +145,7 @@ Ensure the faviconv displays correctly with the appearance of an app logo on and
 [^ back to contents ^](#contents)
 
 
-## 2 ii. Back End Testing
+## 2 ii Back End Testing
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -180,7 +180,7 @@ When the Admin deletes a category, ensure an appropiate flash message is display
 
 
 
-## 2 iii. Jinja For Looping and Routing Testing
+## 2 iii Jinja For Looping and Routing Testing
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -217,7 +217,7 @@ Ensure the @app.errorhandler takes in the appropiate variable, returns the corre
 [^ back to contents ^](#contents)
 
 
-## 2 iv. Detailed Testing
+## 2 iv Detailed Testing
 
 ### Navigation Testing
 
@@ -325,22 +325,33 @@ Is the Choose A Due Date marked as a required field | Yes, the Choose A Due Date
 
 ---
 
-# 3. Chrome Dev Tools - Lighthouse
+# 3 Chrome Dev Tools - Lighthouse
 
-Lighthouse report generated for Desktop
+Lighthouse report generated on MacBook for Desktop
 
 ![Lighthouse report desktop](wireframes/lighthouse_report.png)
 
-Lighthouse report generated for Mobile
+Lighthouse report generated on MacBook for Mobile
 
 ![Lighthouse report desktop](wireframes/lighthouse_report2.png)
+
+
+Lighthouse report generated on PC laptop for Desktop
+
+![Lighthouse report desktop](wireframes/pc_lighthouse_desk.png)
+
+
+Lighthouse report generated on PC laptop for Mobile
+
+![Lighthouse report desktop](wireframes/pc_lighthouse_mob.png)
+
 
 
 [^ back to contents ^](#contents)
 
 ---
 
-# 4. Responsiveness
+# 4 Responsiveness
 
 The website responsiveness has been thoroughly tested on: 
 
@@ -355,7 +366,7 @@ The website responsiveness has been thoroughly tested on:
 
 Testing across multiple devices and laptops ensured website consistency throughout.
 
-# 5. Bugs 
+# 5 Bugs 
 
 ## Job Category Dropdown
 

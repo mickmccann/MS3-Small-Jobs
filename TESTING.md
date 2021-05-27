@@ -292,22 +292,22 @@ TEST            | OUTCOME                          | PASS / FAIL
 Does clicking on Manage Categories in the main navbar take the User to the appropriate page | Yes, clicking on Manage Categories takes the User to the appropiate page https://small-jobs-project.herokuapp.com/get_categories | PASS
 
 
-### Form Testing
+## Form Testing
 
-Testing Register Scenarios
+***Testing Register Scenarios***
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Is the User allowed to register with the site without meeting the correct form criteria | No, a User is not allowed to register with the site without meeting the correct form criteria. Username and Passwords can be between 4-15 characters long, using uppercase or lowercase letters and or numbers from 0-9 | PASS
 
-Testing Login Scenarios
+***Testing Login Scenarios***
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Is the User allowed to login without providing a password | No, the User is not allowed to login without providing a password | PASS
 Is the User allowed to login without providing a username | No, the User is not allowed to login without providing a username | PASS
 
-Testing Add A Job Scenarios
+***Testing Add A Job Scenarios***
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -319,7 +319,18 @@ Can the User put in a phone number or another invalid entry into the Contact Ema
 Is the Job Name marked as a required field | Yes, the Job Name is marked as a required field. Job cannot be submitted unless this is filled | PASS
 Is the Job Description marked as a required field | Yes, the Job Description is marked as a required field. Job cannot be submitted unless this is filled | PASS
 Is the Choose A Due Date marked as a required field | Yes, the Choose A Due Date is marked as a required field. Job cannot be submitted unless this is filled | PASS
+Does the submit button add a new job to the jobs page | Yes, clicking on the submit button adds a new job to the jobs page with a flash message telling the user this as well | PASS
 
+***Testing User Sessions***
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+When a user is logged, can they edit or delete their own job posts without deleting others | Yes, a user is logged, can they edit or delete their own job posts without deleting others. When they click on either button, a modal pops up cautioning them. This is to prevent any accidental deletion. Clicking on edit, takes the user to the edit job page. Clicking on the delete button, deletes the job, which removes it from the database with another flash message tellimg them so | PASS
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+When a user is logged in, clicking on the edit button, does it take them to the correct page | Yes, when a user is logged in, clicking on the edit button, does take them to the correct page http://small-jobs-project.herokuapp.com/edit_jobs/609af1edc50dde638a8f5fc9. All original entry fields remain the same | PASS
+On the edit job page do all buttons work | Yes, on the edit job page all buttons work as intended. If the user doesn't want to make any changes, they can click CANCEL which takes them back to the previous page and the job post remains unmodified. If they decide to make changes, they click on EDIT. A flash message tells them that changes were made to their job | PASS
 
 
 [^ back to contents ^](#contents)

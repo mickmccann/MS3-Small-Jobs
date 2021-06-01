@@ -8,42 +8,46 @@
 
 # Contents
 
-- [1. About the Project](#1-about-the-project)
+- [1. About the Project](#1.-about-the-project)
 
-- [2. User Experience](#2-user-experience)
+- [2. User Experience](#2.-user-experience)
     
-    - [2i. Project Outline](#2-i-project-outline)
+    - [2i. Project Outline](#2.-i.-project-outline)
 
-    -  [2ii. User Stories](#2-ii-user-stories)
-- [3. Wireframes](#3-wireframes)
-- [4. Website Design](#4-website-design)
+    -  [2ii. User Stories](#2.-ii.-user-stories)
+- [3. Wireframes](#3.-wireframes)
+- [4. Website Design](#4.-website-design)
 
-    - [4i. Colour Scheme](#4-i-colour-scheme)
+    - [4i. Colour Scheme](#4.-i.-colour-scheme)
 
-    - [4ii. Typography](#4-ii-typography)
-- [5. Site Map](#5-site-map)
-- [6. Database Design](#6-database-design)
-- [7. Website Features](#7-website-features)
-- [8. Technologies Used](#8-technologies-used)
-- [9. Deployment](#9-deployment)
-- [10. Testing](#10-testing)
-- [11. Credits](#11-credits)
-- [12. Acknowledgements](#12-acknowledgements)
+    - [4ii. Typography](#4.-ii.-typography)
+- [5. Site Map](#5.-site-map)
+- [6. Database Design](#6.-database-design)
+- [7. Website Features](#7.-website-features)
+- [8. Technologies Used](#8.-technologies-used)
+- [9. Deployment](#9.-deployment)
+- [10. Testing](#10.-testing)
+- [11. Credits](#11.-credits)
+- [12. Acknowledgements](#12.-acknowledgements)
 
 ---
 
-# 1 About the Project
-
-Small Jobs is a place whereby people can post a small web developing projects. Think of it as a jobs notice board you might find on a wall in your local community hall or college. Its aim is to promote jobs to skilled developers who might have been made redundant due to Covid. So that's the basic idea of Small Jobs, it's not meant to be flashy with all bells and whistles, I'll leave that to LinkedIn.
+# 1. About the Project
 
 
 [^ back to contents ^](#contents)
 
+Small Jobs is a place whereby people can post a small web developing projects. Think of it as a jobs notice board you might find on a wall in your local community hall or college. Its aim is to promote jobs to skilled developers who might have been made redundant due to Covid. So that's the basic idea of Small Jobs, it's not meant to be flashy with all bells and whistles, I'll leave that to LinkedIn.
+
+
 ---
 
-# 2 User Experience
+# 2. User Experience
 
-## 2 i Project Outline
+[^ back to contents ^](#contents)
+
+## 2. i. Project Outline
+
 
 Small Jobs is a web application aimed at developers who may have been made redundant due to the ongoing Covid pandemic. Visitors to the website will be users looking for a small job, nixer or freelance job, something to keep their developing skills in tip-top shape. Job listings are available to all visitors without having to register, but once registered users can create, edit or delete a job post. 
 
@@ -54,7 +58,7 @@ All design decisions have been made with the following goals in mind:
 - Responsiveness design
 
 
-## 2 ii User Stories
+## 2. ii. User Stories
 
 ### User experience
 
@@ -126,12 +130,12 @@ All design decisions have been made with the following goals in mind:
 ![Admin control](wireframes/admin_control.png)
 
 
-[^ back to contents ^](#contents)
-
 ---
 
 
-# 3 Wireframes
+# 3. Wireframes
+
+[^ back to contents ^](#contents)
 
 Wireframes designed for **mobile**, **tablet** and **desktop** created at the initial design phase.
 
@@ -155,7 +159,7 @@ Wireframes designed for **mobile**, **tablet** and **desktop** created at the in
 
 ---
 
-# 4 Website Design
+# 4. Website Design
 
 The website will be designed with the help of a [Materialize](https://materializecss.com/). A modern responsive front-end framework based on Material Design. Very much similar to Bootstrap although maybe not as well known, it comes with some excellent features.
 
@@ -168,7 +172,7 @@ Pages on the website will be:
 
 Design will be consistent across all devices making sure that users dont get lost as they navigate throughout the site.
 
-## 4 i Colour scheme
+## 4. i. Colour scheme
 
 After going through a few different colour schemes on [coolers.co](https://coolors.co/) I eventually chose the below palette. I like it because the colours aren't too serious but at the same time they are quite classy. The off-white is appealing as it's not going to hurt the eyes with the way pure white can sometimes be. The shades of purple, green and yellow say success to me and the tan colour compliments the off white.
 
@@ -179,7 +183,7 @@ Below is a wireframe of how I see the colours working together on the website.
 ![Small Jobs colored wireframe](wireframes/sj_color_wireframe.png)
 
 
-## 4 ii Typography 
+## 4. ii. Typography 
 
 For the websites fonts I will be using the tried and trusted Roboto for the headings, body text, menu and links. It's a well designed font which makes reading text on screens easier on the eyes. I find that serif fonts work best across all screens whether they have retina displays or not as there's little to no pixelation.
 
@@ -193,20 +197,21 @@ https://fonts.google.com/specimen/Lobster#about
 
 All fonts have been obtained from [Google Fonts](https://fonts.google.com/)
 
-[^ back to contents ^](#contents)
 
 ---
 
-# 5 Site Map
+# 5. Site Map
+
+[^ back to contents ^](#contents)
 
 ![Site Map](wireframes/site_map.png)
 
 
-[^ back to contents ^](#contents)
-
 ---
 
-# 6 Database Design
+# 6. Database Design
+
+[^ back to contents ^](#contents)
 
 ***User Collection***
 | **Key**  | **Type** |
@@ -239,12 +244,12 @@ All fonts have been obtained from [Google Fonts](https://fonts.google.com/)
 | category_name   | string   | 
 
 
+---
+
+# 7. Website Features
 
 [^ back to contents ^](#contents)
 
----
-
-# 7 Website Features
 
 **1. Secure Passwords**
 
@@ -252,20 +257,22 @@ When registering for the site, the user's password is hashed so that it is not r
 
 **2. CRUD Functionality**
 
+CRUD stands for Create, Read, Update and Delete
+
 Visitors can:
-- View all job posts
+- View all job posts - *Read*
 
 Users can:
-- Create their own job post
+- Create their own job post - *Create*
 
-- Edit their own job post 
-- Delete their own job post
+- Edit their own job post - *Update*
+- Delete their own job post - *Delete*
 
 The admin can:
-- Add their own job posts
+- Add their own job posts - *Create*
 
-- Edit any users' job posts
-- Delete any users' job posts
+- Edit any users' job posts - *Update*
+- Delete any users' job posts - *Delete*
 
 **3. Responsive Menu:**
 
@@ -304,29 +311,30 @@ If I have the time, I would like to figure out how to have users upload their ow
 
 ---
 
-# 8 Technologies Used
+# 8. Technologies Used
+
+[^ back to contents ^](#contents)
 
 ## Languages
 
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [HTML 5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Python](https://www.python.org/)
-- [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
+- [Python 3.8](https://www.python.org/)
+- [Jinja 2](https://jinja.palletsprojects.com/en/2.11.x/)
 
 ## Frameworks
 
-- [Flask](https://palletsprojects.com/p/flask/)
+- [Flask 2](https://palletsprojects.com/p/flask/)
 
-- [jQuery](https://jquery.com/)
-- [Materialize](https://materializecss.com/)
+- [jQuery 3.6](https://jquery.com/)
+- [Materialize 1.0](https://materializecss.com/)
 
 ## Project management
 
-- [Amazon AWS](https://aws.amazon.com/)
-
 - [Balsamiq](https://balsamiq.com/wireframes/)
+
 - [GitHub](https://github.com/)
 - [GitPod](https://gitpod.io/)
 - [Heroku](https://www.heroku.com/about)
@@ -342,13 +350,11 @@ If I have the time, I would like to figure out how to have users upload their ow
 - [Google Fonts](https://fonts.google.com/)
 - Preview on Mac to resize images
 
-
-[^ back to contents ^](#contents)
-
-
 ---
 
-# 9 Deployment
+# 9. Deployment
+
+[^ back to contents ^](#contents)
 
 Using [Gitpod](https://www.gitpod.io/), I created the Small Jobs web application. Then, using Git commits I pushed the project to my GitHub repository. [Heroku](https://www.heroku.com/) was used with the deployment of the live website. Connecting Gitpod / GitHub to Heroku meant that any git commits changes automatically updated the live site. 
 
@@ -402,33 +408,30 @@ Go to settings, and within Config Vars enter the following
     * Go to the deploy tab
     * Within the automatic deploys section, choose the branch that you want to deploy from and select Enable Automatic Deploys.
 
-
-[^ back to contents ^](#contents)
-
 ---
 
-# 10 Testing
+# 10. Testing
+
+[^ back to contents ^](#contents)
 
 Full details on the relevant testing can be found here: [Testing](TESTING.md)
 
 
-[^ back to contents ^](#contents)
-
 ---
 
-# 11 Credits
+# 11. Credits
+
+[^ back to contents ^](#contents)
 
 ## Resources
 
 Obtained the background image from this free website https://wallpaperaccess.com/whatsapp
 
-
-[^ back to contents ^](#contents)
-
 ---
 
-# 12 Acknowledgements
-
-Thanks to Code Institute tutor, Tim Nelson who initially created the Task Manager App that the code in this project is based on. To my mentor Brian Macharia for his support guidance and feedback for this project. And to my fellow CI students RachelS and Ed_B. Hopefully I can return the favours!
+# 12. Acknowledgements
 
 [^ back to contents ^](#contents)
+
+Thanks to Code Institute tutor, Tim Nelson who initially created the Task Manager App that the code in this project is based on. To mentors Brian Macharia and Marcel Mulders for their support guidance and feedback for this project. And to my fellow CI students RachelS and Ed_B. Hopefully I can return the favours!
+

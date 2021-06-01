@@ -2,6 +2,7 @@
 
 $(document).ready(function () {
     $(".sidenav").sidenav({edge: "left"});
+    $('.timepicker').timepicker();
     $(".collapsible").collapsible();
     $(".tooltipped").tooltip();
     $("select").formSelect();

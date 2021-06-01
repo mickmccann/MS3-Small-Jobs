@@ -4,24 +4,26 @@ Back to [README](README.md)
 
 # Contents
 
-- [1. Testing User Stories](#1-testing-user-stories)
+- [1. Testing User Stories](#1.-testing-user-stories)
 
-- [2. Manual Testing](#2-manual-testing)
+- [2. Manual Testing](#2.-manual-testing)
 
-    - [2i. Front End Testing](#2-i-front-end-testing)
+    - [2i. Front End Testing](#2.-i.-front-end-testing)
 
-    - [2ii. Back End Testing](#2-ii-back-end-testing)
-    - [2iii. Jinja For Looping and Routing Testing](#2-iii-jinja-for-looping-and-routing-testing)
-    - [2iv. Detailed Testing](#2-iv-detailed-testing)
+    - [2ii. Back End Testing](#2.-ii.-back-end-testing)
+    - [2iii. Jinja For Looping and Routing Testing](#2.-iii.-jinja-for-looping-and-routing-testing)
+    - [2iv. Detailed Testing](#2.-iv.-detailed-testing)
 
-- [3. Chrome Dev Tools Lighthouse](#3-chrome-dev-tools-lighthouse)
-- [4. Responsiveness](#4-responsiveness)
-- [5. Bugs](#5-bugs)
+- [3. Chrome Dev Tools Lighthouse](#3.-chrome-dev-tools-lighthouse)
+- [4. Responsiveness](#4.-responsiveness)
+- [5. Bugs](#5.-bugs)
 
 ---
 
 
-# 1 Testing User Stories
+# 1. Testing User Stories
+
+[^ back to contents ^](#contents)
 
 ## Testing UX
 
@@ -69,9 +71,11 @@ In order to address this issue, I put the buttons into the job description, whic
 
 ---
 
-# 2 Manual Testing
+# 2. Manual Testing
 
-## 2 i Front End Testing
+[^ back to contents ^](#contents)
+
+## 2. i. Front End Testing
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -143,10 +147,9 @@ Ensure the faviconv displays correctly with the appearance of an app logo on app
 Ensure the faviconv displays correctly with the appearance of an app logo on android devices | The faviconv displays correctly with the appearance of an app logo on android devices | PASS
 
 
+## 2. ii. Back End Testing
+
 [^ back to contents ^](#contents)
-
-
-## 2 ii Back End Testing
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -177,11 +180,11 @@ When the Admin successfully updates a category, ensure an appropiate flash messa
 When the Admin deletes a category, ensure an appropiate flash message is displayed | When the Admin deletes a category, an appropiate flash message is displayed [Flash message](wireframes/del_cat.png) | PASS
 
 
+
+## 2. iii. Jinja For Looping and Routing Testing
+
 [^ back to contents ^](#contents)
 
-
-
-## 2 iii Jinja For Looping and Routing Testing
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -215,10 +218,9 @@ Ensure the @app.errorhandler takes in the appropiate variable, returns the corre
 Ensure the @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 500 Server Error | The @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 500 Server Error | PASS
 
 
+## 2. iv. Detailed Testing
+
 [^ back to contents ^](#contents)
-
-
-## 2 iv Detailed Testing
 
 ### Navigation Testing
 
@@ -333,11 +335,11 @@ When a user is logged in, clicking on the edit button, does it take them to the 
 On the edit job page do all buttons work | Yes, on the edit job page all buttons work as intended. If the user doesn't want to make any changes, they can click CANCEL which takes them back to the previous page and the job post remains unmodified. If they decide to make changes, they click on EDIT. A flash message tells them that changes were made to their job | PASS
 
 
-[^ back to contents ^](#contents)
-
 ---
 
-# 3 Chrome Dev Tools Lighthouse
+# 3. Chrome Dev Tools Lighthouse
+
+[^ back to contents ^](#contents)
 
 Lighthouse report generated on MacBook for Desktop
 
@@ -358,12 +360,12 @@ Lighthouse report generated on PC laptop for Mobile
 ![Lighthouse report desktop](wireframes/pc_lighthouse_mob.png)
 
 
+---
+
+# 4. Responsiveness
 
 [^ back to contents ^](#contents)
 
----
-
-# 4 Responsiveness
 
 The website responsiveness has been thoroughly tested on: 
 
@@ -378,7 +380,11 @@ The website responsiveness has been thoroughly tested on:
 
 Testing across multiple devices and laptops ensured website consistency throughout.
 
-# 5 Bugs 
+---
+
+# 5. Bugs 
+
+[^ back to contents ^](#contents)
 
 ## Job Category Dropdown
 
@@ -415,8 +421,5 @@ Testing across multiple devices and laptops ensured website consistency througho
 - Experienced a [routing issue](wireframes/routing_error.png) that took longer than necessary to solve.
 
     - In my jobs.html file, I had {{ url_for('edit_job', job_id=job._id) }} instead of {{ url_for('edit_jobs', job_id=job._id) }}
-
-
-[^ back to contents ^](#contents)
 
 ---

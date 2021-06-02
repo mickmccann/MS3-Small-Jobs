@@ -4,24 +4,24 @@ Back to [README](README.md)
 
 # Contents
 
-- [1. Testing User Stories](#1.-testing-user-stories)
+- [Testing User Stories](#testing-user-stories)
 
-- [2. Manual Testing](#2.-manual-testing)
+- [Manual Testing](#manual-testing)
 
-    - [2i. Front End Testing](#2.-i.-front-end-testing)
+    - [Front End Testing](#front-end-testing)
 
-    - [2ii. Back End Testing](#2.-ii.-back-end-testing)
-    - [2iii. Jinja For Looping and Routing Testing](#2.-iii.-jinja-for-looping-and-routing-testing)
-    - [2iv. Detailed Testing](#2.-iv.-detailed-testing)
+    - [Back End Testing](#back-end-testing)
+    - [Jinja For Looping and Routing Testing](#jinja-for-looping-and-routing-testing)
+    - [Detailed Testing](#detailed-testing)
 
-- [3. Chrome Dev Tools Lighthouse](#3.-chrome-dev-tools-lighthouse)
-- [4. Responsiveness](#4.-responsiveness)
-- [5. Bugs](#5.-bugs)
+- [Chrome Dev Tools Lighthouse](#3.-chrome-dev-tools-lighthouse)
+- [Responsiveness](#responsiveness)
+- [Bugs](#bugs)
 
 ---
 
 
-# 1. Testing User Stories
+# Testing User Stories
 
 [^ back to contents ^](#contents)
 
@@ -71,11 +71,11 @@ In order to address this issue, I put the buttons into the job description, whic
 
 ---
 
-# 2. Manual Testing
+# Manual Testing
 
 [^ back to contents ^](#contents)
 
-## 2. i. Front End Testing
+## Front End Testing
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -147,7 +147,7 @@ Ensure the faviconv displays correctly with the appearance of an app logo on app
 Ensure the faviconv displays correctly with the appearance of an app logo on android devices | The faviconv displays correctly with the appearance of an app logo on android devices | PASS
 
 
-## 2. ii. Back End Testing
+## Back End Testing
 
 [^ back to contents ^](#contents)
 
@@ -181,7 +181,7 @@ When the Admin deletes a category, ensure an appropiate flash message is display
 
 
 
-## 2. iii. Jinja For Looping and Routing Testing
+## Jinja For Looping and Routing Testing
 
 [^ back to contents ^](#contents)
 
@@ -218,7 +218,7 @@ Ensure the @app.errorhandler takes in the appropiate variable, returns the corre
 Ensure the @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 500 Server Error | The @app.errorhandler takes in the appropiate variable, returns the correct rendered template in order to return a 500 Server Error | PASS
 
 
-## 2. iv. Detailed Testing
+## Detailed Testing
 
 [^ back to contents ^](#contents)
 
@@ -337,7 +337,7 @@ On the edit job page do all buttons work | Yes, on the edit job page all buttons
 
 ---
 
-# 3. Chrome Dev Tools Lighthouse
+# Chrome Dev Tools Lighthouse
 
 [^ back to contents ^](#contents)
 
@@ -362,7 +362,7 @@ Lighthouse report generated on PC laptop for Mobile
 
 ---
 
-# 4. Responsiveness
+# Responsiveness
 
 [^ back to contents ^](#contents)
 
@@ -382,7 +382,7 @@ Testing across multiple devices and laptops ensured website consistency througho
 
 ---
 
-# 5. Bugs 
+# Bugs 
 
 [^ back to contents ^](#contents)
 

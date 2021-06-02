@@ -14,7 +14,7 @@ Back to [README](README.md)
     - [Jinja For Looping and Routing Testing](#jinja-for-looping-and-routing-testing)
     - [Detailed Testing](#detailed-testing)
 
-- [Chrome Dev Tools Lighthouse](#3.-chrome-dev-tools-lighthouse)
+- [Chrome Dev Tools Lighthouse](#chrome-dev-tools-lighthouse)
 - [Responsiveness](#responsiveness)
 - [Bugs](#bugs)
 
